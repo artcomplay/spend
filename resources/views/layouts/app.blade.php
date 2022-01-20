@@ -82,16 +82,30 @@
 
 <script>
 
-    function showItems(e, element){
+    function showItems(e, element, blockID){
         e.preventDefault();
+        $.ajax({
+            url: "{{ route('show_elements') }}",
+            type: 'GET',
+            data: {
+                category_id: blockID,
+            },
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            success: (data) => {
+                console.log(data);
+            }
+        })
         var display = $('#' + element.id + '-d').css('display');
         if(display == 'none'){
             $('#' + element.id + '-d').show();
         }else if(display == 'block'){
             $('#' + element.id + '-d').hide();
         }
+
+
         
-        console.log(display);
     }
 
     function addItem(e, element, blockID){
@@ -105,7 +119,7 @@
             url: "{{ route('create_element') }}",
             type: 'POST',
             data: {
-                element_id:elementID,
+                category_id: blockID,
                 element_name:elementName,
                 element_quantity:elementQuantity,
                 element_unit_measurement:elementUnitMeasurement,

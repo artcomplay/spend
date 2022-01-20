@@ -30,3 +30,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/create_element', 'HomeController@create_element')->name('create_element');
+Route::get('/show_elements', 'HomeController@show_elements')->name('show_elements');
+
+
