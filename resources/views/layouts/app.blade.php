@@ -105,6 +105,7 @@
             url: "{{ route('create_element') }}",
             type: 'POST',
             data: {
+                element_id:elementID,
                 element_name:elementName,
                 element_quantity:elementQuantity,
                 element_unit_measurement:elementUnitMeasurement,
