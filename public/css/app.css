@@ -11195,6 +11195,8 @@ a:hover {
           padding-inline-start: 8%;
   list-style-type: none;
   padding-inline-start: 8%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .leave-request {
@@ -11815,5 +11817,43 @@ td span {
 .list-input-block {
   border-top: 1px solid #d5d5d5;
   margin-bottom: 30px;
+}
+
+.modal-form {
+  height: auto;
+  background: linear-gradient(to right, white, whitesmoke, #eeeeee);
+  border-radius: 3px;
+  padding: 6% 8% 6% 8%;
+  box-shadow: 0px 0px 2px #cacaca;
+}
+
+.table-sm th,
+.table-sm td {
+  font-size: 12px;
+}
+
+.head-item-table {
+  font-family: Oswald;
+  letter-spacing: 0.3px;
+  color: #2f9fc1;
+  background: #f8ffff;
+}
+
+.td-item {
+  font-family: Oswald;
+  letter-spacing: 0.3px;
+  color: #8d8d8d;
+}
+
+thead {
+  background: #59afa7a6;
+  color: white;
+  font-family: Oswald;
+  text-shadow: 1px 1px 2px #1c1c1c;
+  letter-spacing: 0.2px;
+}
+
+.table thead th {
+  border-bottom: 2px solid #3e8f807a;
 }
 

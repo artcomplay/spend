@@ -95,6 +95,14 @@
             },
             success: (data) => {
                 console.log(data);
+                let s = "'";
+                let table = $('.' + blockID + '-t');
+                if(table.length == 0){
+                    $('.' + blockID).append('<table class="table table-sm"><thead><tr><th scope="col">#</th><th scope="col">Название материала</th><th scope="col">Количество материала</th><th scope="col">Единицы измерения</th><th scope="col">Цена</th></tr></thead><tbody class="' + blockID + '-t"></tbody></table>');
+                    for(let i = 0; i < data.length; i++){
+                        $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td><td class="td-item">' + data[i].element_quantity + '</td><td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" data="price">' + data[i].element_price + '</td></tr>');
+                    }
+                }
             }
         })
         var display = $('#' + element.id + '-d').css('display');
@@ -110,7 +118,7 @@
 
     function addItem(e, element, blockID){
         e.preventDefault();
-        var inputBlock = $('#' + blockID).find('input');
+        var inputBlock = $('#' + blockID + '-f').find('input');
         let elementName = inputBlock[0].value;
         let elementQuantity = inputBlock[1].value;
         let elementUnitMeasurement = inputBlock[2].value;
@@ -132,7 +140,21 @@
                 console.log(data);
             }
         })
-        
+    }
+
+    function appendElementTotalTable(element, elementID, blockID){
+        let checkedStatus = $('#' + elementID + '-ch').prop('checked');
+        let el = $('#' + elementID + '-tr').find('td').clone();
+        let totalElement = $('#' + elementID + '-tr-2');
+        console.log(totalElement.length);
+        if(totalElement.length == 0 && checkedStatus == true){
+            $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
+            for(let i = 0; i < el.length; i++){
+                $('#' + elementID + '-tr-2').append(el[i]);
+            }
+        }else if(totalElement.length > 0 && checkedStatus == false){
+            $('#' + elementID + '-tr-2').remove();
+        }
     }
 
 </script>

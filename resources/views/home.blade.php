@@ -13,83 +13,128 @@
                             <li class="list-item"><a href="" id="c-1" onclick="showItems(event, this, 'c-1-d');">Затраты на сырье и материалы</a></li>
 
                             <div class="hide list-input-block" id="c-1-d">
-                                <h5 for="text" class="title-cost">Добавить материал</h5>
+                                <a href="" data-target=".cost-materials" data-toggle="modal" onclick="createElement(event, 'c-1-d');">+ Добавить материал</a>
+                                <div class="c-1-d"></div>
+                            </div>
 
-                                <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Название материала</span>
+
+                            <div class="modal fade cost-materials" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 modal-form" id="c-1-d-f">
+                                                    <h5 for="text" class="title-cost">Добавить материал</h5>
+
+                                                    <div class="input-group input-group-sm mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="inputGroup-sizing-sm">Название материала</span>
+                                                        </div>
+                                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                    </div>
+
+                                                    <div class="input-group input-group-sm mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="inputGroup-sizing-sm">Количество материала</span>
+                                                        </div>
+                                                        <input type="number" step="0.01" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                    </div>
+
+                                                    <div class="input-group input-group-sm mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="inputGroup-sizing-sm">Единицы измерения</span>
+                                                        </div>
+                                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                    </div>
+
+                                                    <div class="input-group input-group-sm mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="inputGroup-sizing-sm">Цена</span>
+                                                        </div>
+                                                        <input type="number" step="0.01" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text">BYN</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <a href="" onclick="addItem(event, this, 'c-1-d');" style="color: red;">Добавить</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                                 </div>
-
-                                <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Количество материала</span>
-                                    </div>
-                                    <input type="number" step="0.01" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                </div>
-
-                                <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Единицы измерения</span>
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                </div>
-
-                                <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Цена</span>
-                                    </div>
-                                    <input type="number" step="0.01" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text">BYN</span>
-                                    </div>
-                                </div>
-
-                                <a href="" onclick="addItem(event, this, 'c-1-d');" style="color: red;">Добавить</a>
-                                
                             </div>
 
 
 
 
-                            <li class="list-item"><a href="" id="c-2" onclick="showItems(event, this, 'c-2-d');">Затраты на энергоносители</a></li>
+
+
+
+                            <li class="list-item"><a href="" id="c-2"  onclick="showItems(event, this, 'c-2-d');">Затраты на энергоносители</a></li>
+
+
+
                             <div class="hide list-input-block" id="c-2-d">
-                                <h5 for="text" class="title-cost">Добавить энергоноситель</h5>
-
-                                <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Название энергоносителя</span>
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                </div>
-
-                                <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Количество энергоносителя</span>
-                                    </div>
-                                    <input type="number" step="0.01" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                </div>
-
-                                <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Единицы измерения</span>
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                </div>
-
-                                <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Цена</span>
-                                    </div>
-                                    <input type="number" step="0.01" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text">BYN</span>
-                                    </div>
-                                </div>
-
-                                <a href="" onclick="addItem(event, this, 'c-2-d');" style="color: red;">Добавить</a>
+                                <a href="" data-target=".cost-energy" data-toggle="modal" onclick="createElement(event, 'c-2-d');">+ Добавить энергоноситель</a>
                             </div>
+
+
+                            <div class="modal fade cost-energy" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 modal-form">
+
+                                                    <h5 for="text" class="title-cost">Добавить энергоноситель</h5>
+
+                                                    <div class="input-group input-group-sm mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="inputGroup-sizing-sm">Название энергоносителя</span>
+                                                        </div>
+                                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                    </div>
+
+                                                    <div class="input-group input-group-sm mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="inputGroup-sizing-sm">Количество энергоносителя</span>
+                                                        </div>
+                                                        <input type="number" step="0.01" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                    </div>
+
+                                                    <div class="input-group input-group-sm mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="inputGroup-sizing-sm">Единицы измерения</span>
+                                                        </div>
+                                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                    </div>
+
+                                                    <div class="input-group input-group-sm mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text" id="inputGroup-sizing-sm">Цена</span>
+                                                        </div>
+                                                        <input type="number" step="0.01" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text">BYN</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <a href="" onclick="addItem(event, this, 'c-2-d');" style="color: red;">Добавить</a>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
 
                             <li class="list-item"><a href="" id="c-3" onclick="showItems(event, this, 'c-3-d');">Амортизационные отчисления</a></li>
                             <div class="hide list-input-block" id="c-3-d">
@@ -359,9 +404,40 @@
 
                             <li class="list-item"><a href="" id="c-10" onclick="showItems(event, this, 'c-10-d');">Полная себестоимость</a></li>
                             <div class="hide" id="c-10-d">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Название</th>
+                                            <th scope="col">Количество</th>
+                                            <th scope="col">Единицы измерения</th>
+                                            <th scope="col">Цена</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Затраты на сырье и материалы</td></tr>
+                                        <tr id="c-1-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Затраты на энергоносители</td></tr>
+                                        <tr id="c-2-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Амортизационные отчисления</td></tr>
+                                        <tr id="c-3-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Заработная плата основного персонала</td></tr>
+                                        <tr id="c-4-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Заработная плата управленческого и вспомогательного персонала</td></tr>
+                                        <tr id="c-5-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Отчисления от заработной платы</td></tr>
+                                        <tr id="c-6-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Расходы на сбыт и продажное обслуживание</td></tr>
+                                        <tr id="c-7-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Транспортные расходы</td></tr>
+                                        <tr id="c-8-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="5" class="head-item-table">Прочие затраты</td></tr>
+                                        <tr id="c-9-d-t-m"></tr>
+                                    </tbody>
+                                </table>
                                 <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">Полная себестоимость</span>
-                                    </div>
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Полная себестоимость</span>
+                                </div>
                             </div>
                         </ul>
                     </div>
