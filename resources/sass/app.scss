@@ -948,5 +948,45 @@ thead{
     cursor: pointer;
 }
 
+.form-select-sm {
+    padding: 3px 5px 3px 10px;
+    cursor: pointer;
+}
+
+.form-select {
+    display: block;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #8d8d8d;
+    font-family: Oswald;
+}
+
+.var-input{
+    display: block;
+    width: 45%;
+    font-weight: 400;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #8d8d8d;
+    font-family: Oswald;
+}
+
+input {outline:none;}
+
+select {outline:none;}
 
 

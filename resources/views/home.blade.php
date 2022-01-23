@@ -97,27 +97,30 @@
                                             <th scope="col">Количество</th>
                                             <th scope="col">Единицы измерения</th>
                                             <th scope="col">Цена</th>
+                                            <th scope="col">Операция</th>
+                                            <th scope="col">Переменная</th>
+                                            <th scope="col">Итог</th>
                                         </tr>
                                     </thead>
 
                                     <tbody>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Затраты на сырье и материалы</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Затраты на сырье и материалы</td></tr>
                                         <tr id="c-1-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Затраты на энергоносители</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Затраты на энергоносители</td></tr>
                                         <tr id="c-2-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Амортизационные отчисления</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Амортизационные отчисления</td></tr>
                                         <tr id="c-3-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Заработная плата основного персонала</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Заработная плата основного персонала</td></tr>
                                         <tr id="c-4-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Заработная плата управленческого и вспомогательного персонала</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Заработная плата управленческого и вспомогательного персонала</td></tr>
                                         <tr id="c-5-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Отчисления от заработной платы</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Отчисления от заработной платы</td></tr>
                                         <tr id="c-6-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Расходы на сбыт и продажное обслуживание</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Расходы на сбыт и продажное обслуживание</td></tr>
                                         <tr id="c-7-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Транспортные расходы</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Транспортные расходы</td></tr>
                                         <tr id="c-8-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="5" class="head-item-table">Прочие затраты</td></tr>
+                                        <tr><td scope="col" colspan="7" class="head-item-table">Прочие затраты</td></tr>
                                         <tr id="c-9-d-t-m"></tr>
                                     </tbody>
                                 </table>
