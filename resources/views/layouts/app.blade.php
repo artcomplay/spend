@@ -15,6 +15,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -84,27 +85,57 @@
 
     function showItems(e, element, blockID){
         e.preventDefault();
-        $.ajax({
-            url: "{{ route('show_elements') }}",
-            type: 'GET',
-            data: {
-                category_id: blockID,
-            },
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            },
-            success: (data) => {
-                console.log(data);
-                let s = "'";
-                let table = $('.' + blockID + '-t');
-                if(table.length == 0){
-                    $('.' + blockID).append('<table class="table table-sm"><thead><tr><th scope="col">#</th><th scope="col">Название материала</th><th scope="col">Количество материала</th><th scope="col">Единицы измерения</th><th scope="col">Цена</th></tr></thead><tbody class="' + blockID + '-t"></tbody></table>');
+        let table = $('.' + blockID + '-t');
+        if(table.length == 0){
+            $.ajax({
+                url: "{{ route('show_elements') }}",
+                type: 'GET',
+                data: {
+                    category_id: blockID,
+                },
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+                success: (data) => {
+                    let materialName = 'Наименование материала'; let energyName = 'Наименование энергоносителя'; let resursName = 'Наименование ресурса'; let fullName = 'Ф.И.О работника'; let costName = 'Наименование отчисления'; let spendName = 'Наименование расхода';
+
+                    let qMat = 'Количество материала'; let qEn = 'Количество энергоносителя'; let qRes = 'Количество ресурса'; let qWor = 'Затраченное время'; let qSim = 'Количество';
+
+                    let meas = 'Единица измерения'; let eTime = 'Единица времени';
+
+                    let stoi = 'Стоимость'; let pr = 'Цена';
+
+                    let name, quantity, measurement,  price, dataTarget;
+
+                    if(blockID == 'c-1-d'){
+                        name = materialName; quantity = qMat; measurement = meas; price = pr; dataTarget = '.cost-materials-edit';
+                    }else if(blockID == 'c-2-d'){
+                        name = energyName; quantity = qEn; measurement = meas; price = pr; dataTarget = '.cost-energy-edit';
+                    }else if(blockID == 'c-3-d'){
+                        name = resursName; quantity = qRes; measurement = meas; price = pr; dataTarget = '.cost-depreciation-edit';
+                    }else if(blockID == 'c-4-d'){
+                        name = fullName; quantity = qWor; measurement = eTime; price = stoi; dataTarget = '.cost-mainworker-edit';
+                    }else if(blockID == 'c-5-d'){
+                        name = fullName; quantity = qWor; measurement = eTime; price = stoi; dataTarget = '.cost-management-edit';
+                    }else if(blockID == 'c-6-d'){
+                        name = costName; quantity = qSim; measurement = meas; price = stoi; dataTarget = '.cost-deduction-edit';
+                    }else if(blockID == 'c-7-d'){
+                        name = spendName; quantity = qSim; measurement = meas; price = stoi; dataTarget = '.cost-sales-edit';
+                    }else if(blockID == 'c-8-d'){
+                        name = spendName; quantity = qSim; measurement = meas; price = stoi; dataTarget = '.cost-transport-edit';
+                    }else if(blockID == 'c-9-d'){
+                        name = spendName; quantity = qSim; measurement = meas; price = stoi; dataTarget = '.cost-other-edit';
+                    }
+                
+                    let s = "'"; 
+                    $('.' + blockID).append('<table class="table table-sm"><thead><tr><th scope="col">#</th><th scope="col">' + name + '</th><th scope="col">' + quantity + '</th><th scope="col">' + measurement + '</th><th scope="col">' + price + '</th><th scope="col">Действия</th></tr></thead><tbody class="' + blockID + '-t"></tbody></table>');
                     for(let i = 0; i < data.length; i++){
-                        $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td><td class="td-item">' + data[i].element_quantity + '</td><td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" data="price">' + data[i].element_price + '</td></tr>');
+                        $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td><td class="td-item">' + data[i].element_quantity + '</td><td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" data="price">' + data[i].element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data[i].id + ', ' + s + data[i].element_name + s + ', ' + data[i].element_quantity + ', ' + s + data[i].element_unit_measurement + s + ', ' + data[i].element_price + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data[i].id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
                     }
                 }
-            }
-        })
+            })
+        }
+
         var display = $('#' + element.id + '-d').css('display');
         if(display == 'none'){
             $('#' + element.id + '-d').show();
@@ -123,21 +154,41 @@
         let elementQuantity = inputBlock[1].value;
         let elementUnitMeasurement = inputBlock[2].value;
         let elementPrice = inputBlock[3].value;
+        if(blockID == 'c-1-d'){
+            dataTarget = '.cost-materials-edit';
+        }else if(blockID == 'c-2-d'){
+            dataTarget = '.cost-energy-edit';
+        }else if(blockID == 'c-3-d'){
+            dataTarget = '.cost-depreciation-edit';
+        }else if(blockID == 'c-4-d'){
+            dataTarget = '.cost-mainworker-edit';
+        }else if(blockID == 'c-5-d'){
+            dataTarget = '.cost-management-edit';
+        }else if(blockID == 'c-6-d'){
+            dataTarget = '.cost-deduction-edit';
+        }else if(blockID == 'c-7-d'){
+            dataTarget = '.cost-sales-edit';
+        }else if(blockID == 'c-8-d'){
+            dataTarget = '.cost-transport-edit';
+        }else if(blockID == 'c-9-d'){
+            dataTarget = '.cost-other-edit';
+        }
         $.ajax({
             url: "{{ route('create_element') }}",
             type: 'POST',
             data: {
                 category_id: blockID,
-                element_name:elementName,
-                element_quantity:elementQuantity,
-                element_unit_measurement:elementUnitMeasurement,
-                element_price:elementPrice
+                element_name: elementName,
+                element_quantity: elementQuantity,
+                element_unit_measurement: elementUnitMeasurement,
+                element_price: elementPrice
             },
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             success: (data) => {
-                console.log(data);
+                let s = "'"; 
+                $('.' + blockID + '-t').append('<tr id="' + data.id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.id + s + ', ' + s + blockID + s + ');" type="checkbox" id="' + data.id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
             }
         })
     }
@@ -146,15 +197,105 @@
         let checkedStatus = $('#' + elementID + '-ch').prop('checked');
         let el = $('#' + elementID + '-tr').find('td').clone();
         let totalElement = $('#' + elementID + '-tr-2');
-        console.log(totalElement.length);
         if(totalElement.length == 0 && checkedStatus == true){
             $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
-            for(let i = 0; i < el.length; i++){
+            for(let i = 0; i < (el.length - 1); i++){
                 $('#' + elementID + '-tr-2').append(el[i]);
             }
         }else if(totalElement.length > 0 && checkedStatus == false){
             $('#' + elementID + '-tr-2').remove();
         }
+    }
+
+    function removeElement(e, element, elementID){
+        e.preventDefault();
+        $.ajax({
+            url: "{{ route('remove_element') }}",
+            type: 'POST',
+            data: {
+                element_id: elementID
+            },
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            success: (data) => {
+                $('#' + elementID + '-tr').remove();
+                $('#' + elementID + '-tr-2').remove();
+            }
+        })
+    }
+
+    function showEditElement(e, element, elementID, elementName, elementQuantity, elementMeasurment, elementPrice, blockID){
+        e.preventDefault();
+        let input = $('#' + blockID + '-e').find('input');
+        input[0].value = elementName;
+        input[1].value = elementQuantity;
+        input[2].value = elementMeasurment;
+        input[3].value = elementPrice;
+        input[4].value = elementID;
+    }
+
+    function editElement(e, element, blockID){
+        e.preventDefault();
+        var inputBlock = $('#' + blockID + '-e').find('input');
+        let elementName = inputBlock[0].value;
+        let elementQuantity = inputBlock[1].value;
+        let elementUnitMeasurement = inputBlock[2].value;
+        let elementPrice = inputBlock[3].value;
+        let elementID = inputBlock[4].value;
+        if(blockID == 'c-1-d'){
+            dataTarget = '.cost-materials-edit';
+        }else if(blockID == 'c-2-d'){
+            dataTarget = '.cost-energy-edit';
+        }else if(blockID == 'c-3-d'){
+            dataTarget = '.cost-depreciation-edit';
+        }else if(blockID == 'c-4-d'){
+            dataTarget = '.cost-mainworker-edit';
+        }else if(blockID == 'c-5-d'){
+            dataTarget = '.cost-management-edit';
+        }else if(blockID == 'c-6-d'){
+            dataTarget = '.cost-deduction-edit';
+        }else if(blockID == 'c-7-d'){
+            dataTarget = '.cost-sales-edit';
+        }else if(blockID == 'c-8-d'){
+            dataTarget = '.cost-transport-edit';
+        }else if(blockID == 'c-9-d'){
+            dataTarget = '.cost-other-edit';
+        }
+        $.ajax({
+            url: "{{ route('edit_element') }}",
+            type: 'POST',
+            data: {
+                element_id: elementID,
+                element_name: elementName,
+                element_quantity: elementQuantity,
+                element_unit_measurement: elementUnitMeasurement,
+                element_price: elementPrice
+            },
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            success: (data) => {
+                let s = "'";
+                let checkedStatus = $('#' + data.element_id + '-ch').prop('checked');
+                
+                
+
+                $('#' + data.element_id + '-tr').replaceWith('<tr id="' + data.element_id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.element_id + s + ', ' + s + blockID + s + ');" type="checkbox" id="' + data.element_id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.element_id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.element_id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                let el = $('#' + elementID + '-tr').find('td').clone();
+                let totalElement = $('#' + elementID + '-tr-2');
+                if(checkedStatus == true){
+                    $('#' + data.element_id + '-tr-2').remove();
+
+
+                    $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + data.element_id + '-tr-2"></tr>');
+                    for(let i = 0; i < (el.length - 1); i++){
+                        $('#' + data.element_id + '-tr-2').append(el[i]);
+                    }
+                }
+                $('#' + data.element_id + '-ch').prop('checked', true);
+            }
+        })
     }
 
 </script>

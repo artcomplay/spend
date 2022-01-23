@@ -20,6 +20,18 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('material-component', require('./components/menu/MaterialComponent.vue').default);
+Vue.component('energy-component', require('./components/menu/EnergyComponent.vue').default);
+Vue.component('depreciation-component', require('./components/menu/DepreciationComponent.vue').default);
+Vue.component('mainworker-component', require('./components/menu/MainworkerComponent.vue').default);
+Vue.component('management-component', require('./components/menu/ManagementComponent.vue').default);
+
+Vue.component('deduction-component', require('./components/menu/DeductionComponent.vue').default);
+Vue.component('sales-component', require('./components/menu/SalesComponent.vue').default);
+Vue.component('transport-component', require('./components/menu/TransportComponent.vue').default);
+Vue.component('other-component', require('./components/menu/OtherComponent.vue').default);
+
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

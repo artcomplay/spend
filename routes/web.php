@@ -31,5 +31,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/create_element', 'HomeController@create_element')->name('create_element');
 Route::get('/show_elements', 'HomeController@show_elements')->name('show_elements');
+Route::post('/remove_element', 'HomeController@remove_element')->name('remove_element');
+Route::post('/edit_element', 'HomeController@edit_element')->name('edit_element');
 
 

@@ -42,7 +42,7 @@ class HomeController extends Controller
             $element_price = $request->element_price;
             $date = Carbon::now();
             $new_element = Element::create(array('element_name' => $element_name, 'element_quantity' => $element_quantity, 'element_unit_measurement' => $element_unit_measurement, 'element_price' => $element_price, 'category_id' => $category_id, 'user_id' => $user_id, 'created_at' => $date, 'updated_at' => $date));
-            return $request;
+            return $new_element;
         }
     }
 
@@ -54,5 +54,33 @@ class HomeController extends Controller
             ['category_id', '=', $category_id],
         ])->get();
         return $elements;
+    }
+
+    public function remove_element(Request $request){
+        if($request->ajax()){
+            if (Auth::user()){
+                $element_id = $request->element_id;
+                $user_id = Auth::user()->id;
+                $result = DB::table('elements')->where('id', $element_id)->where('user_id',  $user_id)->delete();
+                return $result;
+            }
+        }
+    }
+
+    public function edit_element(Request $request){
+        if($request->ajax()){
+            if (Auth::user()){
+                $user_id = Auth::user()->id;
+                $date = Carbon::now();
+                $element_id = $request->element_id;
+                $element_name = $request->element_name;
+                $element_quantity = $request->element_quantity;
+                $element_unit_measurement = $request->element_unit_measurement;
+                $element_price = $request->element_price;
+                $result = DB::table('elements')->where(['id' => $element_id , 'user_id' => $user_id ])->update(['element_name' => $element_name, 'element_quantity' => $element_quantity, 'element_unit_measurement' => $element_unit_measurement, 'element_price' => $element_price]);
+            }
+        } 
+
+        return $request;
     }
 }

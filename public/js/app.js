@@ -2303,6 +2303,1169 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/DeductionComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/DeductionComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/DepreciationComponent.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/DepreciationComponent.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/EnergyComponent.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/EnergyComponent.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/MainworkerComponent.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/MainworkerComponent.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/ManagementComponent.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/ManagementComponent.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/MaterialComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/MaterialComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/OtherComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/OtherComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/SalesComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/SalesComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/TransportComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/TransportComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -37921,6 +39084,3660 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/DeductionComponent.vue?vue&type=template&id=bc80cf26&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/DeductionComponent.vue?vue&type=template&id=bc80cf26& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-deduction",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-6-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить отчисление")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование отчисления")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-6-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-deduction-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-6-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить отчисление")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование отчисления")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-6-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/DepreciationComponent.vue?vue&type=template&id=68c83fab&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/DepreciationComponent.vue?vue&type=template&id=68c83fab& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-depreciation",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-3-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить предмет амортизации")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование ресурса")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество ресурса")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единицы измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Цена")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-3-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-depreciation-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-3-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить предмет амортизации")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование ресурса")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество ресурса")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единицы измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Цена")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-3-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/EnergyComponent.vue?vue&type=template&id=4b32d0d0&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/EnergyComponent.vue?vue&type=template&id=4b32d0d0& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-energy",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-2-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить энергоноситель")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование энергоносителя")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество энергоносителя")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единицы измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Цена")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-2-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-energy-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-2-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить энергоноситель")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование энергоносителя")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество энергоносителя")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единицы измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Цена")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-2-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/MainworkerComponent.vue?vue&type=template&id=79a0cbc1&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/MainworkerComponent.vue?vue&type=template&id=79a0cbc1& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-mainworker",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-4-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить работника")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Ф.И.О работника")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Затраченное время")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица времени")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-4-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-mainworker-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-4-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить работника")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Ф.И.О работника")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Затраченное время")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица времени")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-4-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/ManagementComponent.vue?vue&type=template&id=7cc28975&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/ManagementComponent.vue?vue&type=template&id=7cc28975& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-management",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-5-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить работника")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Ф.И.О работника")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Затраченное время")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица времени")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-5-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-management-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-5-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить работника")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Ф.И.О работника")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Затраченное время")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица времени")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-5-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/MaterialComponent.vue?vue&type=template&id=1e1b685e&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/MaterialComponent.vue?vue&type=template&id=1e1b685e& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-materials",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-1-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить материал")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование материала")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество материала")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единицы измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Цена")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-1-d');",
+                            "aria-label": "Close",
+                            "data-dismiss": "modal",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-materials-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-1-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить материал")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование материала")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество материала")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единицы измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Цена")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-1-d');",
+                            "aria-label": "Close",
+                            "data-dismiss": "modal",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/OtherComponent.vue?vue&type=template&id=7342e3bc&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/OtherComponent.vue?vue&type=template&id=7342e3bc& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-other",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-9-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить расход")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование расхода")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-9-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-other-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-9-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить расход")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование расхода")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-9-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/SalesComponent.vue?vue&type=template&id=442fdda6&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/SalesComponent.vue?vue&type=template&id=442fdda6& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-sales",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-7-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить расход")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование расхода")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-7-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-sales-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-7-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить расход")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование расхода")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-7-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/TransportComponent.vue?vue&type=template&id=000f3fae&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/menu/TransportComponent.vue?vue&type=template&id=000f3fae& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-transport",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-8-d-f" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Добавить расход")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование расхода")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "addItem(event, this, 'c-8-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Добавить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade cost-transport-edit",
+          attrs: {
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "myLargeModalLabel",
+            "aria-hidden": "true",
+          },
+        },
+        [
+          _c("div", { staticClass: "modal-dialog modal-lg" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-12 modal-form",
+                      attrs: { id: "c-8-d-e" },
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [
+                          _c("span", { attrs: { "aria-hidden": "true" } }, [
+                            _vm._v("×"),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        { staticClass: "title-cost", attrs: { for: "text" } },
+                        [_vm._v("Изменить расход")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Наименование расхода")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Количество")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Единица измерения")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "input-group input-group-sm mb-3" },
+                        [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "input-group-text",
+                                attrs: { id: "inputGroup-sizing-sm" },
+                              },
+                              [_vm._v("Стоимость")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              step: "0.01",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "input-group-append" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _vm._v("BYN"),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "hide input-group input-group-sm mb-3" },
+                        [
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "number",
+                              "aria-label": "Sizing example input",
+                              "aria-describedby": "inputGroup-sizing-sm",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticStyle: { color: "red" },
+                          attrs: {
+                            href: "",
+                            onclick: "editElement(event, this, 'c-8-d');",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close",
+                          },
+                        },
+                        [_vm._v("Изменить")]
+                      ),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -50158,6 +54975,15 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component('material-component', __webpack_require__(/*! ./components/menu/MaterialComponent.vue */ "./resources/js/components/menu/MaterialComponent.vue")["default"]);
+Vue.component('energy-component', __webpack_require__(/*! ./components/menu/EnergyComponent.vue */ "./resources/js/components/menu/EnergyComponent.vue")["default"]);
+Vue.component('depreciation-component', __webpack_require__(/*! ./components/menu/DepreciationComponent.vue */ "./resources/js/components/menu/DepreciationComponent.vue")["default"]);
+Vue.component('mainworker-component', __webpack_require__(/*! ./components/menu/MainworkerComponent.vue */ "./resources/js/components/menu/MainworkerComponent.vue")["default"]);
+Vue.component('management-component', __webpack_require__(/*! ./components/menu/ManagementComponent.vue */ "./resources/js/components/menu/ManagementComponent.vue")["default"]);
+Vue.component('deduction-component', __webpack_require__(/*! ./components/menu/DeductionComponent.vue */ "./resources/js/components/menu/DeductionComponent.vue")["default"]);
+Vue.component('sales-component', __webpack_require__(/*! ./components/menu/SalesComponent.vue */ "./resources/js/components/menu/SalesComponent.vue")["default"]);
+Vue.component('transport-component', __webpack_require__(/*! ./components/menu/TransportComponent.vue */ "./resources/js/components/menu/TransportComponent.vue")["default"]);
+Vue.component('other-component', __webpack_require__(/*! ./components/menu/OtherComponent.vue */ "./resources/js/components/menu/OtherComponent.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -50279,6 +55105,627 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/DeductionComponent.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/menu/DeductionComponent.vue ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _DeductionComponent_vue_vue_type_template_id_bc80cf26___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DeductionComponent.vue?vue&type=template&id=bc80cf26& */ "./resources/js/components/menu/DeductionComponent.vue?vue&type=template&id=bc80cf26&");
+/* harmony import */ var _DeductionComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DeductionComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/DeductionComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _DeductionComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DeductionComponent_vue_vue_type_template_id_bc80cf26___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DeductionComponent_vue_vue_type_template_id_bc80cf26___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/DeductionComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/DeductionComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/menu/DeductionComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DeductionComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./DeductionComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/DeductionComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DeductionComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/DeductionComponent.vue?vue&type=template&id=bc80cf26&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/menu/DeductionComponent.vue?vue&type=template&id=bc80cf26& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DeductionComponent_vue_vue_type_template_id_bc80cf26___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./DeductionComponent.vue?vue&type=template&id=bc80cf26& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/DeductionComponent.vue?vue&type=template&id=bc80cf26&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DeductionComponent_vue_vue_type_template_id_bc80cf26___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DeductionComponent_vue_vue_type_template_id_bc80cf26___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/DepreciationComponent.vue":
+/*!****************************************************************!*\
+  !*** ./resources/js/components/menu/DepreciationComponent.vue ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _DepreciationComponent_vue_vue_type_template_id_68c83fab___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DepreciationComponent.vue?vue&type=template&id=68c83fab& */ "./resources/js/components/menu/DepreciationComponent.vue?vue&type=template&id=68c83fab&");
+/* harmony import */ var _DepreciationComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DepreciationComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/DepreciationComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _DepreciationComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DepreciationComponent_vue_vue_type_template_id_68c83fab___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DepreciationComponent_vue_vue_type_template_id_68c83fab___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/DepreciationComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/DepreciationComponent.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/menu/DepreciationComponent.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DepreciationComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./DepreciationComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/DepreciationComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DepreciationComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/DepreciationComponent.vue?vue&type=template&id=68c83fab&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/menu/DepreciationComponent.vue?vue&type=template&id=68c83fab& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DepreciationComponent_vue_vue_type_template_id_68c83fab___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./DepreciationComponent.vue?vue&type=template&id=68c83fab& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/DepreciationComponent.vue?vue&type=template&id=68c83fab&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DepreciationComponent_vue_vue_type_template_id_68c83fab___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DepreciationComponent_vue_vue_type_template_id_68c83fab___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/EnergyComponent.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/menu/EnergyComponent.vue ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _EnergyComponent_vue_vue_type_template_id_4b32d0d0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EnergyComponent.vue?vue&type=template&id=4b32d0d0& */ "./resources/js/components/menu/EnergyComponent.vue?vue&type=template&id=4b32d0d0&");
+/* harmony import */ var _EnergyComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EnergyComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/EnergyComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _EnergyComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _EnergyComponent_vue_vue_type_template_id_4b32d0d0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _EnergyComponent_vue_vue_type_template_id_4b32d0d0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/EnergyComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/EnergyComponent.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/menu/EnergyComponent.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_EnergyComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./EnergyComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/EnergyComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_EnergyComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/EnergyComponent.vue?vue&type=template&id=4b32d0d0&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/menu/EnergyComponent.vue?vue&type=template&id=4b32d0d0& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EnergyComponent_vue_vue_type_template_id_4b32d0d0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./EnergyComponent.vue?vue&type=template&id=4b32d0d0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/EnergyComponent.vue?vue&type=template&id=4b32d0d0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EnergyComponent_vue_vue_type_template_id_4b32d0d0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EnergyComponent_vue_vue_type_template_id_4b32d0d0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/MainworkerComponent.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/menu/MainworkerComponent.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _MainworkerComponent_vue_vue_type_template_id_79a0cbc1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MainworkerComponent.vue?vue&type=template&id=79a0cbc1& */ "./resources/js/components/menu/MainworkerComponent.vue?vue&type=template&id=79a0cbc1&");
+/* harmony import */ var _MainworkerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MainworkerComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/MainworkerComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _MainworkerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _MainworkerComponent_vue_vue_type_template_id_79a0cbc1___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _MainworkerComponent_vue_vue_type_template_id_79a0cbc1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/MainworkerComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/MainworkerComponent.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/menu/MainworkerComponent.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MainworkerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./MainworkerComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/MainworkerComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MainworkerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/MainworkerComponent.vue?vue&type=template&id=79a0cbc1&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/menu/MainworkerComponent.vue?vue&type=template&id=79a0cbc1& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MainworkerComponent_vue_vue_type_template_id_79a0cbc1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./MainworkerComponent.vue?vue&type=template&id=79a0cbc1& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/MainworkerComponent.vue?vue&type=template&id=79a0cbc1&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MainworkerComponent_vue_vue_type_template_id_79a0cbc1___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MainworkerComponent_vue_vue_type_template_id_79a0cbc1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/ManagementComponent.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/menu/ManagementComponent.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ManagementComponent_vue_vue_type_template_id_7cc28975___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ManagementComponent.vue?vue&type=template&id=7cc28975& */ "./resources/js/components/menu/ManagementComponent.vue?vue&type=template&id=7cc28975&");
+/* harmony import */ var _ManagementComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ManagementComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/ManagementComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ManagementComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ManagementComponent_vue_vue_type_template_id_7cc28975___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ManagementComponent_vue_vue_type_template_id_7cc28975___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/ManagementComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/ManagementComponent.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/menu/ManagementComponent.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ManagementComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./ManagementComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/ManagementComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ManagementComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/ManagementComponent.vue?vue&type=template&id=7cc28975&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/menu/ManagementComponent.vue?vue&type=template&id=7cc28975& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ManagementComponent_vue_vue_type_template_id_7cc28975___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./ManagementComponent.vue?vue&type=template&id=7cc28975& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/ManagementComponent.vue?vue&type=template&id=7cc28975&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ManagementComponent_vue_vue_type_template_id_7cc28975___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ManagementComponent_vue_vue_type_template_id_7cc28975___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/MaterialComponent.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/menu/MaterialComponent.vue ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _MaterialComponent_vue_vue_type_template_id_1e1b685e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MaterialComponent.vue?vue&type=template&id=1e1b685e& */ "./resources/js/components/menu/MaterialComponent.vue?vue&type=template&id=1e1b685e&");
+/* harmony import */ var _MaterialComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MaterialComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/MaterialComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _MaterialComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _MaterialComponent_vue_vue_type_template_id_1e1b685e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _MaterialComponent_vue_vue_type_template_id_1e1b685e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/MaterialComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/MaterialComponent.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/menu/MaterialComponent.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MaterialComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./MaterialComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/MaterialComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MaterialComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/MaterialComponent.vue?vue&type=template&id=1e1b685e&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/menu/MaterialComponent.vue?vue&type=template&id=1e1b685e& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MaterialComponent_vue_vue_type_template_id_1e1b685e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./MaterialComponent.vue?vue&type=template&id=1e1b685e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/MaterialComponent.vue?vue&type=template&id=1e1b685e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MaterialComponent_vue_vue_type_template_id_1e1b685e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MaterialComponent_vue_vue_type_template_id_1e1b685e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/OtherComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/menu/OtherComponent.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _OtherComponent_vue_vue_type_template_id_7342e3bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OtherComponent.vue?vue&type=template&id=7342e3bc& */ "./resources/js/components/menu/OtherComponent.vue?vue&type=template&id=7342e3bc&");
+/* harmony import */ var _OtherComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OtherComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/OtherComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _OtherComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _OtherComponent_vue_vue_type_template_id_7342e3bc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _OtherComponent_vue_vue_type_template_id_7342e3bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/OtherComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/OtherComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/menu/OtherComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_OtherComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./OtherComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/OtherComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_OtherComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/OtherComponent.vue?vue&type=template&id=7342e3bc&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/menu/OtherComponent.vue?vue&type=template&id=7342e3bc& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OtherComponent_vue_vue_type_template_id_7342e3bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./OtherComponent.vue?vue&type=template&id=7342e3bc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/OtherComponent.vue?vue&type=template&id=7342e3bc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OtherComponent_vue_vue_type_template_id_7342e3bc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OtherComponent_vue_vue_type_template_id_7342e3bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/SalesComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/menu/SalesComponent.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SalesComponent_vue_vue_type_template_id_442fdda6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SalesComponent.vue?vue&type=template&id=442fdda6& */ "./resources/js/components/menu/SalesComponent.vue?vue&type=template&id=442fdda6&");
+/* harmony import */ var _SalesComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SalesComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/SalesComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _SalesComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SalesComponent_vue_vue_type_template_id_442fdda6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SalesComponent_vue_vue_type_template_id_442fdda6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/SalesComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/SalesComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/menu/SalesComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SalesComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./SalesComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/SalesComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SalesComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/SalesComponent.vue?vue&type=template&id=442fdda6&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/menu/SalesComponent.vue?vue&type=template&id=442fdda6& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SalesComponent_vue_vue_type_template_id_442fdda6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./SalesComponent.vue?vue&type=template&id=442fdda6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/SalesComponent.vue?vue&type=template&id=442fdda6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SalesComponent_vue_vue_type_template_id_442fdda6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SalesComponent_vue_vue_type_template_id_442fdda6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/TransportComponent.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/menu/TransportComponent.vue ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TransportComponent_vue_vue_type_template_id_000f3fae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TransportComponent.vue?vue&type=template&id=000f3fae& */ "./resources/js/components/menu/TransportComponent.vue?vue&type=template&id=000f3fae&");
+/* harmony import */ var _TransportComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TransportComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/menu/TransportComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TransportComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TransportComponent_vue_vue_type_template_id_000f3fae___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TransportComponent_vue_vue_type_template_id_000f3fae___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/menu/TransportComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/TransportComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/menu/TransportComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TransportComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./TransportComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/TransportComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TransportComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/menu/TransportComponent.vue?vue&type=template&id=000f3fae&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/menu/TransportComponent.vue?vue&type=template&id=000f3fae& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TransportComponent_vue_vue_type_template_id_000f3fae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./TransportComponent.vue?vue&type=template&id=000f3fae& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/menu/TransportComponent.vue?vue&type=template&id=000f3fae&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TransportComponent_vue_vue_type_template_id_000f3fae___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TransportComponent_vue_vue_type_template_id_000f3fae___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
