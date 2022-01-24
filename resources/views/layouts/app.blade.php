@@ -130,7 +130,7 @@
                     let s = "'"; 
                     $('.' + blockID).append('<table class="table table-sm"><thead><tr><th scope="col">#</th><th scope="col">' + name + '</th><th scope="col">' + quantity + '</th><th scope="col">' + measurement + '</th><th scope="col">' + price + '</th><th scope="col">Действия</th></tr></thead><tbody class="' + blockID + '-t"></tbody></table>');
                     for(let i = 0; i < data.length; i++){
-                        $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ', ' + data[i].element_price + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td><td class="td-item">' + data[i].element_quantity + '</td><td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" id="' + data[i].id + '-price" data="price">' + data[i].element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data[i].id + ', ' + s + data[i].element_name + s + ', ' + data[i].element_quantity + ', ' + s + data[i].element_unit_measurement + s + ', ' + data[i].element_price + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data[i].id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                        $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ', ' + data[i].element_price + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td><td class="td-item" id="' + data[i].id + '-qo">' + data[i].element_quantity + '</td><td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" id="' + data[i].id + '-price" data="price">' + data[i].element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data[i].id + ', ' + s + data[i].element_name + s + ', ' + data[i].element_quantity + ', ' + s + data[i].element_unit_measurement + s + ', ' + data[i].element_price + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data[i].id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
                     }
                 }
             })
@@ -200,7 +200,11 @@
         if(totalElement.length == 0 && checkedStatus == true){
             $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
             for(let i = 0; i < (el.length - 1); i++){
-                $('#' + elementID + '-tr-2').append(el[i]);
+                if(i != 1){
+                    $('#' + elementID + '-tr-2').append(el[i]);
+                }else if(i == 1){
+                    $('#' + elementID + '-tr-2').append('<td class="td-item"><input id="' + elementID + '-qu" onchange="changeQuantity(event, this, ' + elementID + ', ' + el[i].innerText + ');" value="' + el[i].innerText + '" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                }
             }
             $('#' + elementID + '-tr-2').append('<td><select id="' + elementID + '-s" onchange="changeSelect(event, this, ' + elementID + ');" class="form-select form-select-sm" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
             $('#' + elementID + '-tr-2').append('<td><input id="' + elementID + '-var" onchange="changeVar(event, this, ' + elementID + ');" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
@@ -283,17 +287,22 @@
                 let s = "'";
                 let checkedStatus = $('#' + data.element_id + '-ch').prop('checked');
                 
-                $('#' + data.element_id + '-tr').replaceWith('<tr id="' + data.element_id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.element_id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.element_id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + elementID + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.element_id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.element_id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                $('#' + data.element_id + '-tr').replaceWith('<tr id="' + data.element_id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.element_id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.element_id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item" id="' + elementID + '-qo">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + elementID + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.element_id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.element_id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
                 let el = $('#' + elementID + '-tr').find('td').clone();
                 let totalElement = $('#' + elementID + '-tr-2');
                 if(checkedStatus == true){
                     $('#' + data.element_id + '-tr-2').remove();
 
-
                     $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + data.element_id + '-tr-2"></tr>');
+
                     for(let i = 0; i < (el.length - 1); i++){
-                        $('#' + data.element_id + '-tr-2').append(el[i]);
+                        if(i != 1){
+                            $('#' + data.element_id + '-tr-2').append(el[i]);
+                        }else if(i == 1){
+                            $('#' + data.element_id + '-tr-2').append('<td class="td-item"><input id="' + data.element_id + '-qu" onchange="changeQuantity(event, this, ' + data.element_id + ', ' + el[i].innerText + ');" value="' + el[i].innerText + '" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                        }
                     }
+
                     $('#' + elementID + '-tr-2').append('<td><select id="' + data.element_id + '-s" onchange="changeSelect(event, this, ' + data.element_id + ');" class="form-select form-select-sm" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
                     $('#' + elementID + '-tr-2').append('<td><input id="' + data.element_id + '-var" onchange="changeVar(event, this, ' + data.element_id + ');" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
                     $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + data.element_id + '-tpr">' + elementPrice + '</td>');
@@ -321,7 +330,7 @@
     function changeVar(e, element, elementID){
         let variableInput = element.value;
         let operation = $('#' + elementID + '-s').val();
-        let price = $('#' + elementID + '-price').html();
+        let price = $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html();
         let totalPrice;
 
         if(operation == '='){         
@@ -341,6 +350,23 @@
 
         $('#' + elementID + '-tpr').html(parseFloat(totalPrice).toFixed(2));
 
+    }
+
+    function changeQuantity(event, element, elementID){
+        let oldPrice = $('#' + elementID + '-tr').children('#' + elementID + '-price').html();
+        let oldQuantity = $('#' + elementID + '-tr').children('#' + elementID + '-qo').html();
+        let nowQuantity = parseFloat(element.value);
+        let newPrice = (parseFloat(oldPrice) / parseFloat(oldQuantity)) * parseFloat(nowQuantity);
+        console.log(parseFloat(oldPrice));
+        console.log(parseFloat(oldQuantity));
+        console.log(nowQuantity);
+        console.log(parseFloat(newPrice));
+
+        $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html(newPrice.toFixed(2));
+        $('#' + elementID + '-tpr').html(newPrice.toFixed(2));
+        $('#' + elementID + '-s').val('=');
+        $('#' + elementID + '-var').val(null);
+        
     }
 
 
