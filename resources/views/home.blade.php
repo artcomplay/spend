@@ -95,7 +95,7 @@
                                         <tr>
                                             <th scope="col">Название</th>
                                             <th scope="col">Количество</th>
-                                            <th scope="col">Единицы измерения</th>
+                                            <th scope="col">Ед. изм.</th>
                                             <th scope="col">Цена</th>
                                             <th scope="col">Операция</th>
                                             <th scope="col">Переменная</th>
