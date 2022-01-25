@@ -11937,3 +11937,16 @@ select {
   outline: none;
 }
 
+.total-item-cost {
+  background: #fff29852;
+  color: #565656cc;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border-bottom: 2px solid #8fc7c2;
+  font-family: Oswald;
+}
+
+.table td {
+  border-top: 1px solid #68aba245;
+}
+

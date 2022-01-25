@@ -188,7 +188,7 @@
             },
             success: (data) => {
                 let s = "'"; 
-                $('.' + blockID + '-t').append('<tr id="' + data.id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + data.id + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                $('.' + blockID + '-t').append('<tr id="' + data.id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item" id="' + data.id + '-qo">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + data.id + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
             }
         })
     }
@@ -212,6 +212,7 @@
         }else if(totalElement.length > 0 && checkedStatus == false){
             $('#' + elementID + '-tr-2').remove();
         }
+        editTotal();
     }
 
 
@@ -231,6 +232,7 @@
                 $('#' + elementID + '-tr-2').remove();
             }
         })
+        editTotal();
     }
 
     function showEditElement(e, element, elementID, elementName, elementQuantity, elementMeasurment, elementPrice, blockID){
@@ -306,8 +308,10 @@
                     $('#' + elementID + '-tr-2').append('<td><select id="' + data.element_id + '-s" onchange="changeSelect(event, this, ' + data.element_id + ');" class="form-select form-select-sm" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
                     $('#' + elementID + '-tr-2').append('<td><input id="' + data.element_id + '-var" onchange="changeVar(event, this, ' + data.element_id + ');" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
                     $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + data.element_id + '-tpr">' + elementPrice + '</td>');
+                    $('#' + data.element_id + '-ch').prop('checked', true);
+                    editTotal();
                 }
-                $('#' + data.element_id + '-ch').prop('checked', true);
+                
             }
         })
     }
@@ -325,6 +329,7 @@
             valSelect = 0;
         }
         $('#' + elementID + '-var').val(valSelect);
+        editTotal();
     }
 
     function changeVar(e, element, elementID){
@@ -349,6 +354,7 @@
         }
 
         $('#' + elementID + '-tpr').html(parseFloat(totalPrice).toFixed(2));
+        editTotal();
 
     }
 
@@ -356,18 +362,27 @@
         let oldPrice = $('#' + elementID + '-tr').children('#' + elementID + '-price').html();
         let oldQuantity = $('#' + elementID + '-tr').children('#' + elementID + '-qo').html();
         let nowQuantity = parseFloat(element.value);
-        let newPrice = (parseFloat(oldPrice) / parseFloat(oldQuantity)) * parseFloat(nowQuantity);
-        console.log(parseFloat(oldPrice));
-        console.log(parseFloat(oldQuantity));
-        console.log(nowQuantity);
-        console.log(parseFloat(newPrice));
+        let newPrice = ((parseFloat(oldPrice) / parseFloat(oldQuantity)) * nowQuantity);
+        console.log('Old Price = ' + oldPrice);
+        console.log('Old Quantity = ' + oldQuantity);
+        console.log('Old Quantity = ' + nowQuantity);
+        console.log('New Price = ' + newPrice);
 
         $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html(newPrice.toFixed(2));
         $('#' + elementID + '-tpr').html(newPrice.toFixed(2));
         $('#' + elementID + '-s').val('=');
         $('#' + elementID + '-var').val(null);
+        editTotal();
         
     }
 
+    function editTotal(){
+        let totals = $('.total-price');
+        let totalPrice = 0;
+        for(let i = 0; i < totals.length; i++){
+            totalPrice += parseFloat(totals[i].innerText);
+        }
+        $('#total-price').html(totalPrice.toFixed(2));
+    }
 
 </script>

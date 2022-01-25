@@ -122,11 +122,9 @@
                                         <tr id="c-8-d-t-m"></tr>
                                         <tr><td scope="col" colspan="7" class="head-item-table">Прочие затраты</td></tr>
                                         <tr id="c-9-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="6" class="total-item-cost">Полная себестоимость</td><td class="total-item-cost" colspan="1" id="total-price"></td></tr>
                                     </tbody>
                                 </table>
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="inputGroup-sizing-sm">Полная себестоимость</span>
-                                </div>
                             </div>
                         </ul>
                     </div>
