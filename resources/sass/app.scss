@@ -214,6 +214,7 @@ a:hover{
     margin-top: 25px;
     padding: 8% 2% 5% 2%;
     box-shadow: 0px 0px 2px #cacaca;
+    min-width: 530px;
 }
 
 .list-item{
@@ -1013,6 +1014,10 @@ select {outline:none;}
     font-family: source-code-pro, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono ,Courier New, monospace;
     font-weight: 600;
     font-size: 12px;
+}
+
+.card{
+    min-width: 530px;
 }
 
 
