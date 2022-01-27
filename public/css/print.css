@@ -1,0 +1,152 @@
+@media print{
+    /* .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+    }
+
+    table {
+        border-collapse: collapse;
+        display: table;
+        border-collapse: separate;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+        border-color: grey;
+    }
+
+    thead {
+        background: #59afa7a6;
+        color: white;
+        font-family: Oswald;
+        text-shadow: 1px 1px 2px #1c1c1c;
+        letter-spacing: 0.2px;
+    }
+
+    thead {
+        display: table-header-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+
+    .table thead th {
+        border-bottom: 2px solid #3e8f807a;
+        vertical-align: bottom;
+    }
+
+    .table-sm th, .table-sm td {
+        font-size: 12px;
+        padding: 0.3rem;
+    }
+
+    .table th, .table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    .table td {
+        border-top: 1px solid #68aba245;
+    }
+
+    .td-item {
+        font-family: Oswald;
+        letter-spacing: 0.3px;
+        color: #8d8d8d;
+    }
+
+    .var-input {
+        display: block;
+        width: 45%;
+        font-weight: 400;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        color: #8d8d8d;
+        font-family: Oswald;
+        border: none;
+        background: #ffffff00;
+    }
+
+    .form-select {
+        display: block;
+        -moz-padding-start: calc(0.75rem - 3px);
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: 16px 12px;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        color: #8d8d8d;
+        font-family: Oswald;
+        border: none;
+        background: #f3f3f300;
+    }
+
+    .form-select-sm {
+        padding: 3px 5px 3px 10px;
+        cursor: pointer;
+    }
+
+    select {
+        outline: none;
+    }
+
+    input {
+        outline: none;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .table-hide-total{
+        display: block;
+    } */
+
+
+    .var-nput, form-select{
+        border: none;
+    }
+
+    .table thead th {
+        border-bottom: 2px solid #3e8f807a;
+        color: #4ba19dd9;
+    }
+
+    .var-input {
+        border: none;
+    }
+
+    .form-select {
+        border: none;
+    }
+
+    .print-table{
+        display: none;
+    }
+
+    .print-item{
+        display: none;
+    }
+
+    .menu-list .list-input-block{
+        display: none;
+    }
+}
