@@ -126,7 +126,9 @@
                                     </tbody>
                                 </table>
 
-                                <div></div>
+                                <div class="edit-table">
+                                    <a href="" onclick="createTableForCopy(event);">Сформировать таблицу</a>
+                                </div>
 
                                 <!-- <a href="" class="print-table" onclick="printData(event);">Печать</a> -->
                             </div>

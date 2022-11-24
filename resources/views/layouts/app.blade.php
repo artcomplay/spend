@@ -398,4 +398,49 @@
         newWin.close();
     }
 
+    function createTableForCopy(e){
+        e.preventDefault();
+        // let tableP = $('.td-item').children('p');
+        // if(tableP.length > 0){
+        //     console.log(tableP.length);
+        //     $('.td-item').children('p').remove();
+        // }
+        // console.log(tableP);
+        let el = $("[id$='-tr-2']");
+        for(let i = 0; i < el.length; i++){
+            let str = el[i].id;
+            let re = str.split("-");
+            let quantity = re[0] + '-qu';
+            let quVal = $('#' + quantity).val();
+            $('#' + quantity).next('p').remove();
+            $('#' + quantity).after('<p>' + quVal + '</p>');
+            $('#' + quantity).css('display', 'none');
+            let operation = re[0] + '-s';
+            let operVal = $('#' + operation).val();
+            $('#' + operation).next('p').remove();
+            if(operVal == '='){
+                $('#' + operation).after('<p>=</p>');
+            }else if(operVal == 1){
+                $('#' + operation).after('<p>X</p>');
+            }else if(operVal == 2){
+                $('#' + operation).after('<p>/</p>');
+            }else if(operVal == 3){
+                $('#' + operation).after('<p>%</p>');
+            }else if(operVal == 4){
+                $('#' + operation).after('<p>+</p>');
+            }else if(operVal == 5){
+                $('#' + operation).after('<p>-</p>');
+            }
+            $('#' + operation).css('display', 'none');
+            let variable = re[0] + '-var';
+            let varVal = $('#' + variable).val();
+            $('#' + variable).next('p').remove();
+            $('#' + variable).after('<p>' + varVal + '</p>');
+            $('#' + variable).css('display', 'none');
+        }
+        
+
+    }
+
+
 </script>

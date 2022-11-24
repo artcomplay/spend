@@ -11847,7 +11847,8 @@ td span {
   transition: 0.1s;
 }
 
-.td-item {
+.td-item,
+p {
   font-family: Oswald;
   letter-spacing: 0.3px;
   color: #8d8d8d;
@@ -11966,5 +11967,31 @@ select {
 
 .card {
   min-width: 530px;
+}
+
+@media print {
+  .list-item {
+    display: none;
+  }
+
+  .edit-table {
+    display: none;
+  }
+
+  .list-input-block {
+    display: none !important;
+  }
+
+  .list-input {
+    display: none !important;
+  }
+
+  .card-header {
+    display: none !important;
+  }
+
+  thead {
+    color: #59afa7a6 !important;
+  }
 }
 
