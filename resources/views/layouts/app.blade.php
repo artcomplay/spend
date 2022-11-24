@@ -87,6 +87,121 @@
 
 <script>
 
+    function autoChangeSelect(categoryID){
+        let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
+
+        if(inCh[1].checked == true){
+
+        }
+        editTotal();
+    }
+
+    function changeSelect(e, element, elementID, categoryID){
+        let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
+
+        if(inCh[1].checked == false){
+            let valSelect;
+            if(element.value == 1 || element.value == 2){
+                valSelect = 1;
+            }else if(element.value == 3){
+                valSelect = 100;
+            }else if(element.value == '='){
+                valSelect = null;
+            }else if(element.value == 4 || element.value == 5){
+                valSelect = 0;
+            }
+            $('#' + elementID + '-var').val(valSelect);
+        }else if(inCh[1].checked == true){
+            let chQuTr = $('.cat-s-' + categoryID);
+            for(let i = 0; i < chQuTr.length; i++){
+                console.log(chQuTr[i]);
+            }
+            
+
+        }
+
+
+        editTotal();
+    }
+
+    function autoChangeQuangity(categoryID){
+        let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
+
+        if(inCh[0].checked == true){
+            let chQuTr = $('.cat-c-' + categoryID + '-d');
+            let changeValue;
+            for(let i = 0; i < chQuTr.length; i++){
+                changeValue = chQuTr[0].value;
+
+                chQuTr[i].value = changeValue;
+
+            }
+            for(let j = 0; j < chQuTr.length; j++){
+                let elementID = chQuTr[j].id.replace('-qu','');
+                changeQuantityAuto(event, chQuTr[j], elementID, categoryID);
+
+            }
+        }
+        editTotal();
+    }
+
+    function changeQuantityAuto(event, element, elementID, categoryID){
+
+        let oldPrice = $('#' + elementID + '-tr').children('#' + elementID + '-price').html();
+        let oldQuantity = $('#' + elementID + '-tr').children('#' + elementID + '-qo').html();
+        let nowQuantity = parseFloat(element.value);
+        let newPrice = ((parseFloat(oldPrice) / parseFloat(oldQuantity)) * nowQuantity);
+
+        $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html(newPrice.toFixed(2));
+        $('#' + elementID + '-tpr').html(newPrice.toFixed(2));
+        $('#' + elementID + '-s').val('=');
+        $('#' + elementID + '-var').val(null);
+
+        editTotal();
+
+    }
+
+    function changeQuantity(event, element, elementID, categoryID){
+
+        let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
+
+        if(inCh[0].checked == false){
+            let oldPrice = $('#' + elementID + '-tr').children('#' + elementID + '-price').html();
+            let oldQuantity = $('#' + elementID + '-tr').children('#' + elementID + '-qo').html();
+            let nowQuantity = parseFloat(element.value);
+            let newPrice = ((parseFloat(oldPrice) / parseFloat(oldQuantity)) * nowQuantity);
+
+            $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html(newPrice.toFixed(2));
+            $('#' + elementID + '-tpr').html(newPrice.toFixed(2));
+            $('#' + elementID + '-s').val('=');
+            $('#' + elementID + '-var').val(null);
+        }else if(inCh[0].checked == true){
+            let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
+
+            if(inCh[0].checked == true){
+                let chQuTr = $('.cat-c-' + categoryID + '-d');
+                let changeValue;
+                for(let i = 0; i < chQuTr.length; i++){
+                    changeValue = chQuTr[0].value;
+
+                    chQuTr[i].value = changeValue;
+
+                }
+                for(let j = 0; j < chQuTr.length; j++){
+                    let elementID = chQuTr[j].id.replace('-qu','');
+                    changeQuantityAuto(event, chQuTr[j], elementID, categoryID);
+
+                }
+            }
+        }
+
+        editTotal();
+        
+    }
+
+
+
+
     function showItems(e, element, blockID){
         e.preventDefault();
         let table = $('.' + blockID + '-t');
@@ -201,17 +316,19 @@
         let checkedStatus = $('#' + elementID + '-ch').prop('checked');
         let el = $('#' + elementID + '-tr').find('td').clone();
         let totalElement = $('#' + elementID + '-tr-2');
+        let catId = blockID.replace('c-', '');
+        catId = catId.replace('-d', '');
         if(totalElement.length == 0 && checkedStatus == true){
             $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
             for(let i = 0; i < (el.length - 1); i++){
                 if(i != 1){
                     $('#' + elementID + '-tr-2').append(el[i]);
                 }else if(i == 1){
-                    $('#' + elementID + '-tr-2').append('<td class="td-item"><input id="' + elementID + '-qu" onchange="changeQuantity(event, this, ' + elementID + ', ' + el[i].innerText + ');" value="' + el[i].innerText + '" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                    $('#' + elementID + '-tr-2').append('<td class="td-item"><input id="' + elementID + '-qu" onchange="changeQuantity(event, this, ' + elementID + ', ' + catId + ');" value="' + el[i].innerText + '" type="number" class="var-input cat-' + blockID + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
                 }
             }
-            $('#' + elementID + '-tr-2').append('<td><select id="' + elementID + '-s" onchange="changeSelect(event, this, ' + elementID + ');" class="form-select form-select-sm" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
-            $('#' + elementID + '-tr-2').append('<td><input id="' + elementID + '-var" onchange="changeVar(event, this, ' + elementID + ');" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+            $('#' + elementID + '-tr-2').append('<td><select id="' + elementID + '-s" onchange="changeSelect(event, this, ' + elementID + ', ' + catId + ');" class="form-select form-select-sm cat-s-' + catId + '" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
+            $('#' + elementID + '-tr-2').append('<td><input id="' + elementID + '-var" onchange="changeVar(event, this, ' + elementID + ', ' + catId + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
             $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + elementID + '-tpr">' + elementPrice + '</td>');
         }else if(totalElement.length > 0 && checkedStatus == false){
             $('#' + elementID + '-tr-2').remove();
@@ -276,6 +393,10 @@
         }else if(blockID == 'c-9-d'){
             dataTarget = '.cost-other-edit';
         }
+
+        let catId = blockID.replace('c-', '');
+        catId = catId.replace('-d', '');
+
         $.ajax({
             url: "{{ route('edit_element') }}",
             type: 'POST',
@@ -305,12 +426,12 @@
                         if(i != 1){
                             $('#' + data.element_id + '-tr-2').append(el[i]);
                         }else if(i == 1){
-                            $('#' + data.element_id + '-tr-2').append('<td class="td-item"><input id="' + data.element_id + '-qu" onchange="changeQuantity(event, this, ' + data.element_id + ', ' + el[i].innerText + ');" value="' + el[i].innerText + '" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                            $('#' + data.element_id + '-tr-2').append('<td class="td-item"><input id="' + data.element_id + '-qu" onchange="changeQuantity(event, this, ' + data.element_id + ', ' + catId + ');" value="' + el[i].innerText + '" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
                         }
                     }
 
-                    $('#' + elementID + '-tr-2').append('<td><select id="' + data.element_id + '-s" onchange="changeSelect(event, this, ' + data.element_id + ');" class="form-select form-select-sm" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
-                    $('#' + elementID + '-tr-2').append('<td><input id="' + data.element_id + '-var" onchange="changeVar(event, this, ' + data.element_id + ');" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                    $('#' + elementID + '-tr-2').append('<td><select id="' + data.element_id + '-s" onchange="changeSelect(event, this, ' + data.element_id + ');" class="form-select form-select-sm cat-s-' + catId + '" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
+                    $('#' + elementID + '-tr-2').append('<td><input id="' + data.element_id + '-var" onchange="changeVar(event, this, ' + data.element_id + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
                     $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + data.element_id + '-tpr">' + elementPrice + '</td>');
                     $('#' + data.element_id + '-ch').prop('checked', true);
                     editTotal();
@@ -320,21 +441,6 @@
         })
     }
 
-
-    function changeSelect(e, element, elementID){
-        let valSelect;
-        if(element.value == 1 || element.value == 2){
-            valSelect = 1;
-        }else if(element.value == 3){
-            valSelect = 100;
-        }else if(element.value == '='){
-            valSelect = null;
-        }else if(element.value == 4 || element.value == 5){
-            valSelect = 0;
-        }
-        $('#' + elementID + '-var').val(valSelect);
-        editTotal();
-    }
 
     function changeVar(e, element, elementID){
         let variableInput = element.value;
@@ -362,23 +468,7 @@
 
     }
 
-    function changeQuantity(event, element, elementID){
-        let oldPrice = $('#' + elementID + '-tr').children('#' + elementID + '-price').html();
-        let oldQuantity = $('#' + elementID + '-tr').children('#' + elementID + '-qo').html();
-        let nowQuantity = parseFloat(element.value);
-        let newPrice = ((parseFloat(oldPrice) / parseFloat(oldQuantity)) * nowQuantity);
-        console.log('Old Price = ' + oldPrice);
-        console.log('Old Quantity = ' + oldQuantity);
-        console.log('Old Quantity = ' + nowQuantity);
-        console.log('New Price = ' + newPrice);
 
-        $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html(newPrice.toFixed(2));
-        $('#' + elementID + '-tpr').html(newPrice.toFixed(2));
-        $('#' + elementID + '-s').val('=');
-        $('#' + elementID + '-var').val(null);
-        editTotal();
-        
-    }
 
     function editTotal(){
         let totals = $('.total-price');

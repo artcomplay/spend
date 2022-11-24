@@ -11552,6 +11552,15 @@ a.leave-request:hover {
   transform: rotate(-20deg);
 }
 
+.check-a-p {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+}
+
 .back-title {
   font-weight: bold;
   color: #00304a;
