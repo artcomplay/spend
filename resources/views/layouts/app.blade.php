@@ -87,28 +87,41 @@
 
 <script>
 
-    function changeVar(e, element, elementID){
-        let variableInput = element.value;
-        let operation = $('#' + elementID + '-s').val();
-        let price = $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html();
-        let totalPrice;
+    function changeVar(e, element, elementID, categoryID){
+        let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
 
-        if(operation == '='){         
-            totalPrice = price;
-            $('#' + elementID + '-var').val(null);
-        }else if(operation == 1){     
-            totalPrice = (parseFloat(price) * parseFloat(variableInput));
-        }else if(operation == 2){     
-            totalPrice = (parseFloat(price) / parseFloat(variableInput));
-        }else if(operation == 3){     
-            totalPrice = ((parseFloat(price) / 100) * parseFloat(variableInput));
-        }else if(operation == 4){     
-            totalPrice = (parseFloat(price) + parseFloat(variableInput));
-        }else if(operation == 5){     
-            totalPrice = (parseFloat(price) - parseFloat(variableInput));
+        let varOperation = $('.cat-v-' + categoryID);
+        //console.log(varOperation[0].value);
+        if(inChe[2].checked == true){
+            $('.cat-v-' + categoryID).val(varOperation[0].value);
+        }else if(inChe[2].checked == false){
+            let variableInput = element.value;
+            let operation = $('#' + elementID + '-s').val();
+            console.log(operation);
+            let price = $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html();
+            let totalPrice;
+
+            if(operation == '=' || operation == 0){         
+                totalPrice = price;
+                $('#' + elementID + '-var').val(null);
+            }else if(operation == 1 || operation == 'X'){     
+                totalPrice = (parseFloat(price) * parseFloat(variableInput));
+            }else if(operation == 2 || operation == '/'){     
+                totalPrice = (parseFloat(price) / parseFloat(variableInput));
+            }else if(operation == 3 || operation == '%'){     
+                totalPrice = ((parseFloat(price) / 100) * parseFloat(variableInput));
+            }else if(operation == 4 || operation == '+'){     
+                totalPrice = (parseFloat(price) + parseFloat(variableInput));
+            }else if(operation == 5 || operation == '-'){     
+                totalPrice = (parseFloat(price) - parseFloat(variableInput));
+            }
+
+            $('#' + elementID + '-tpr').html(parseFloat(totalPrice).toFixed(2));
         }
 
-        $('#' + elementID + '-tpr').html(parseFloat(totalPrice).toFixed(2));
+
+
+
         editTotal();
 
     }
@@ -123,7 +136,6 @@
         //Чекбоксы категорий
         let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
 
-        console.log(valIn);
         if(inChe[1].checked == true){
             let valSelect;
             if(valIn == 1 || valIn == 2){
