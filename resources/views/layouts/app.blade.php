@@ -87,20 +87,88 @@
 
 <script>
 
-    function autoChangeSelect(categoryID){
-        let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
+    function changeVar(e, element, elementID){
+        let variableInput = element.value;
+        let operation = $('#' + elementID + '-s').val();
+        let price = $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html();
+        let totalPrice;
 
-        if(inCh[1].checked == true){
-
+        if(operation == '='){         
+            totalPrice = price;
+            $('#' + elementID + '-var').val(null);
+        }else if(operation == 1){     
+            totalPrice = (parseFloat(price) * parseFloat(variableInput));
+        }else if(operation == 2){     
+            totalPrice = (parseFloat(price) / parseFloat(variableInput));
+        }else if(operation == 3){     
+            totalPrice = ((parseFloat(price) / 100) * parseFloat(variableInput));
+        }else if(operation == 4){     
+            totalPrice = (parseFloat(price) + parseFloat(variableInput));
+        }else if(operation == 5){     
+            totalPrice = (parseFloat(price) - parseFloat(variableInput));
         }
+
+        $('#' + elementID + '-tpr').html(parseFloat(totalPrice).toFixed(2));
         editTotal();
+
+    }
+
+    function autoChangeSelect(categoryID){
+        //Все элементы select в категории
+        let inCh = $('.cat-s-' + categoryID);
+
+        //Цифровое значение в select
+        let valIn = inCh[0].value;
+
+        //Чекбоксы категорий
+        let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
+
+        console.log(valIn);
+        if(inChe[1].checked == true){
+            let valSelect;
+            if(valIn == 1 || valIn == 2){
+                valSelect = 1;
+            }else if(valIn == 3){
+                valSelect = 100;
+            }else if(valIn == '='){
+                valSelect = null;
+            }else if(valIn == 4 || valIn == 5){
+                valSelect = 0;
+            }else if(valIn == 0){
+                valSelect = null;
+            }
+            
+            $('.cat-v-' + categoryID).val(valSelect);
+            if(valIn == 0){
+                $('.cat-s-' + categoryID).html('<option selected="">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option>');
+            }else if(valIn == 1){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option selected="">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option>');
+            }else if(valIn == 2){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option selected="">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option>');
+            }else if(valIn == 3){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option value="2">/</option><option selected="">%</option><option value="4">+</option><option value="5">-</option>');
+            }else if(valIn == 4){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option selected="">+</option><option value="5">-</option>');
+            }else if(valIn == 5){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option selected="">-</option>');
+            }
+        }
+
+
+        
+        
+        editTotal();
+        
+
+
     }
 
     function changeSelect(e, element, elementID, categoryID){
-        let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
+        let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
 
-        if(inCh[1].checked == false){
-            let valSelect;
+        let valSelect;
+        if(inChe[1].checked == true){
+            
             if(element.value == 1 || element.value == 2){
                 valSelect = 1;
             }else if(element.value == 3){
@@ -109,17 +177,36 @@
                 valSelect = null;
             }else if(element.value == 4 || element.value == 5){
                 valSelect = 0;
-            }
-            $('#' + elementID + '-var').val(valSelect);
-        }else if(inCh[1].checked == true){
-            let chQuTr = $('.cat-s-' + categoryID);
-            for(let i = 0; i < chQuTr.length; i++){
-                console.log(chQuTr[i]);
+            }else if(element.value == 0){
+                valSelect = null;
             }
             
-
+            $('.cat-v-' + categoryID).val(valSelect);
+            if(element.value == 0){
+                $('.cat-s-' + categoryID).html('<option selected="">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option>');
+            }else if(element.value == 1){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option selected="">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option>');
+            }else if(element.value == 2){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option selected="">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option>');
+            }else if(element.value == 3){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option value="2">/</option><option selected="">%</option><option value="4">+</option><option value="5">-</option>');
+            }else if(element.value == 4){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option selected="">+</option><option value="5">-</option>');
+            }else if(element.value == 5){
+                $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option selected="">-</option>');
+            }
         }
 
+        if(element.value == 1 || element.value == 2){
+            valSelect = 1;
+        }else if(element.value == 3){
+            valSelect = 100;
+        }else if(element.value == '='){
+            valSelect = null;
+        }else if(element.value == 4 || element.value == 5){
+            valSelect = 0;
+        }
+        $('#' + elementID + '-var').val(valSelect);
 
         editTotal();
     }
@@ -440,35 +527,6 @@
             }
         })
     }
-
-
-    function changeVar(e, element, elementID){
-        let variableInput = element.value;
-        let operation = $('#' + elementID + '-s').val();
-        let price = $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html();
-        let totalPrice;
-
-        if(operation == '='){         
-            totalPrice = price;
-            $('#' + elementID + '-var').val(null);
-        }else if(operation == 1){     
-            totalPrice = (parseFloat(price) * parseFloat(variableInput));
-        }else if(operation == 2){     
-            totalPrice = (parseFloat(price) / parseFloat(variableInput));
-        }else if(operation == 3){     
-            totalPrice = ((parseFloat(price) / 100) * parseFloat(variableInput));
-        }else if(operation == 4){     
-            totalPrice = (parseFloat(price) + parseFloat(variableInput));
-        }else if(operation == 5){     
-            totalPrice = (parseFloat(price) - parseFloat(variableInput));
-        }
-
-        $('#' + elementID + '-tpr').html(parseFloat(totalPrice).toFixed(2));
-        editTotal();
-
-    }
-
-
 
     function editTotal(){
         let totals = $('.total-price');
