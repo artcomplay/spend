@@ -87,6 +87,47 @@
 
 <script>
 
+    function autoChangeVariable(categoryID){
+        let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
+
+        let varOperation = $('.cat-v-' + categoryID);
+        
+        let event;
+
+        if(inChe[2].checked == true){
+            $('.cat-v-' + categoryID).val(varOperation[0].value);
+            for(let j = 0; j < varOperation.length; j++){
+                changeVar(event, varOperation[j], varOperation[j].id, categoryID);
+            }
+        }else if(inChe[2].checked == false){
+            for(let j = 0; j < varOperation.length; j++){
+                let variableInput = varOperation[j].value;
+                let operation = $('#' + varOperation[j].id + '-s').val();
+                let price = $('#' + varOperation[j].id + '-tr-2').children('#' + varOperation[j].id + '-price').html();
+                let totalPrice;
+
+                if(operation == '=' || operation == 0){         
+                    totalPrice = price;
+                    $('#' + varOperation[j].id + '-var').val(null);
+                }else if(operation == 1 || operation == 'X'){     
+                    totalPrice = (parseFloat(price) * parseFloat(variableInput));
+                }else if(operation == 2 || operation == '/'){     
+                    totalPrice = (parseFloat(price) / parseFloat(variableInput));
+                }else if(operation == 3 || operation == '%'){     
+                    totalPrice = ((parseFloat(price) / 100) * parseFloat(variableInput));
+                }else if(operation == 4 || operation == '+'){     
+                    totalPrice = (parseFloat(price) + parseFloat(variableInput));
+                }else if(operation == 5 || operation == '-'){     
+                    totalPrice = (parseFloat(price) - parseFloat(variableInput));
+                }
+
+                $('#' + varOperation[j].id + '-tpr').html(parseFloat(totalPrice).toFixed(2));
+            }
+        }
+
+        editTotal();
+    }
+
     function changeVar(e, element, elementID, categoryID){
         let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
 
@@ -94,10 +135,34 @@
         //console.log(varOperation[0].value);
         if(inChe[2].checked == true){
             $('.cat-v-' + categoryID).val(varOperation[0].value);
+            let categoryOperation = $('.cat-s-' + categoryID);
+            for(let p = 0; p < categoryOperation.length; p++){
+                let variableInput = $('#' + categoryOperation[p].id.replace('-s', '') + '-var');
+                let operation = $('#' + categoryOperation[p].id).val();
+                let price = $('#' + categoryOperation[p].id.replace('-s', '') + '-tr-2').children('#' + categoryOperation[p].id.replace('-s', '') + '-price').html();
+                let totalPrice;
+
+                console.log();
+                if(operation == '=' || operation == 0){         
+                    totalPrice = price;
+                    $('#' + categoryOperation[p].id.replace('-s', '') + '-var').val(null);
+                }else if(operation == 1 || operation == 'X'){     
+                    totalPrice = (parseFloat(price) * parseFloat(variableInput[0].value));
+                }else if(operation == 2 || operation == '/'){     
+                    totalPrice = (parseFloat(price) / parseFloat(variableInput[0].value));
+                }else if(operation == 3 || operation == '%'){     
+                    totalPrice = ((parseFloat(price) / 100) * parseFloat(variableInput[0].value));
+                }else if(operation == 4 || operation == '+'){     
+                    totalPrice = (parseFloat(price) + parseFloat(variableInput[0].value));
+                }else if(operation == 5 || operation == '-'){     
+                    totalPrice = (parseFloat(price) - parseFloat(variableInput[0].value));
+                }
+
+                $('#' + categoryOperation[p].id.replace('-s', '') + '-tpr').html(parseFloat(totalPrice).toFixed(2));
+            }
         }else if(inChe[2].checked == false){
             let variableInput = element.value;
             let operation = $('#' + elementID + '-s').val();
-            console.log(operation);
             let price = $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html();
             let totalPrice;
 
@@ -118,9 +183,6 @@
 
             $('#' + elementID + '-tpr').html(parseFloat(totalPrice).toFixed(2));
         }
-
-
-
 
         editTotal();
 
@@ -166,12 +228,7 @@
             }
         }
 
-
-        
-        
         editTotal();
-        
-
 
     }
 
@@ -207,6 +264,36 @@
             }else if(element.value == 5){
                 $('.cat-s-' + categoryID).html('<option value="0">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option selected="">-</option>');
             }
+
+
+            //changeTotal
+            let varOperation = $('.cat-v-' + categoryID);
+            $('.cat-v-' + categoryID).val(varOperation[0].value);
+            let categoryOperation = $('.cat-s-' + categoryID);
+            for(let p = 0; p < categoryOperation.length; p++){
+                let variableInput = $('#' + categoryOperation[p].id.replace('-s', '') + '-var');
+                let operation = $('#' + categoryOperation[p].id).val();
+                let price = $('#' + categoryOperation[p].id.replace('-s', '') + '-tr-2').children('#' + categoryOperation[p].id.replace('-s', '') + '-price').html();
+                let totalPrice;
+
+                if(operation == '=' || operation == 0){         
+                    totalPrice = price;
+                    $('#' + categoryOperation[p].id.replace('-s', '') + '-var').val(null);
+                }else if(operation == 1 || operation == 'X'){     
+                    totalPrice = (parseFloat(price) * parseFloat(variableInput[0].value));
+                }else if(operation == 2 || operation == '/'){     
+                    totalPrice = (parseFloat(price) / parseFloat(variableInput[0].value));
+                }else if(operation == 3 || operation == '%'){     
+                    totalPrice = ((parseFloat(price) / 100) * parseFloat(variableInput[0].value));
+                }else if(operation == 4 || operation == '+'){     
+                    totalPrice = (parseFloat(price) + parseFloat(variableInput[0].value));
+                }else if(operation == 5 || operation == '-'){     
+                    totalPrice = (parseFloat(price) - parseFloat(variableInput[0].value));
+                }
+
+                $('#' + categoryOperation[p].id.replace('-s', '') + '-tpr').html(parseFloat(totalPrice).toFixed(2));
+            }
+
         }
 
         if(element.value == 1 || element.value == 2){
@@ -349,6 +436,10 @@
                     $('.' + blockID).append('<table class="table table-sm"><thead><tr><th scope="col">#</th><th scope="col">' + name + '</th><th scope="col">' + quantity + '</th><th scope="col">' + measurement + '</th><th scope="col">' + price + '</th><th scope="col">Действия</th></tr></thead><tbody class="' + blockID + '-t"></tbody></table>');
                     for(let i = 0; i < data.length; i++){
                         $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ', ' + data[i].element_price + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td><td class="td-item" id="' + data[i].id + '-qo">' + data[i].element_quantity + '</td><td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" id="' + data[i].id + '-price" data="price">' + data[i].element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data[i].id + ', ' + s + data[i].element_name + s + ', ' + data[i].element_quantity + ', ' + s + data[i].element_unit_measurement + s + ', ' + data[i].element_price + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data[i].id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                        if(data[i].category_id == 'c-5-d'){
+                            $('#' + data[i].id + '-ch').attr('checked', true);
+                            appendElementTotalTable(data[i], data[i].id, blockID, data[i].element_price);
+                        }
                     }
                 }
             })
@@ -560,12 +651,6 @@
 
     function createTableForCopy(e){
         e.preventDefault();
-        // let tableP = $('.td-item').children('p');
-        // if(tableP.length > 0){
-        //     console.log(tableP.length);
-        //     $('.td-item').children('p').remove();
-        // }
-        // console.log(tableP);
         let el = $("[id$='-tr-2']");
         for(let i = 0; i < el.length; i++){
             let str = el[i].id;
