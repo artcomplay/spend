@@ -402,13 +402,13 @@
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 },
                 success: (data) => {
-                    let materialName = 'Наименование материала'; let energyName = 'Наименование энергоносителя'; let resursName = 'Наименование ресурса'; let fullName = 'Ф.И.О работника'; let costName = 'Наименование отчисления'; let spendName = 'Наименование расхода';
+                    let materialName = 'Наименование материала'; let energyName = 'Наименование энергоносителя'; let resursName = 'Наименование ресурса'; let fullName = 'Ф.И.О работника'; let costName = 'Наименование отчисления'; let spendName = 'Наименование расхода'; let opName = 'Название операции';
 
                     let qMat = 'Количество материала'; let qEn = 'Количество энергоносителя'; let qRes = 'Количество ресурса'; let qWor = 'Затраченное время'; let qSim = 'Количество';
 
-                    let meas = 'Единица измерения'; let eTime = 'Единица времени';
+                    let meas = 'Единица измерения'; let eTime = 'Единица времени'; let opMeas = 'Символ операции';
 
-                    let stoi = 'Стоимость'; let pr = 'Цена';
+                    let stoi = 'Стоимость'; let pr = 'Цена'; let prOp = 'Переменная';
 
                     let name, quantity, measurement,  price, dataTarget;
 
@@ -430,15 +430,29 @@
                         name = spendName; quantity = qSim; measurement = meas; price = stoi; dataTarget = '.cost-transport-edit';
                     }else if(blockID == 'c-9-d'){
                         name = spendName; quantity = qSim; measurement = meas; price = stoi; dataTarget = '.cost-other-edit';
+                    }else if(blockID == 'c-11-d'){
+                        name = opName; quantity = qSim; measurement = opMeas; price = prOp; dataTarget = '.cost-total-edit';
                     }
-                
-                    let s = "'"; 
-                    $('.' + blockID).append('<table class="table table-sm"><thead><tr><th scope="col">#</th><th scope="col">' + name + '</th><th scope="col">' + quantity + '</th><th scope="col">' + measurement + '</th><th scope="col">' + price + '</th><th scope="col">Действия</th></tr></thead><tbody class="' + blockID + '-t"></tbody></table>');
-                    for(let i = 0; i < data.length; i++){
-                        $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ', ' + data[i].element_price + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td><td class="td-item" id="' + data[i].id + '-qo">' + data[i].element_quantity + '</td><td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" id="' + data[i].id + '-price" data="price">' + data[i].element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data[i].id + ', ' + s + data[i].element_name + s + ', ' + data[i].element_quantity + ', ' + s + data[i].element_unit_measurement + s + ', ' + data[i].element_price + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data[i].id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
-                        if(data[i].category_id == 'c-5-d'){
-                            $('#' + data[i].id + '-ch').attr('checked', true);
-                            appendElementTotalTable(data[i], data[i].id, blockID, data[i].element_price);
+
+                    if(blockID == 'c-11-d'){
+                        let s = "'"; 
+                        $('.' + blockID).append('<table class="table table-sm"><thead><tr><th scope="col">#</th><th scope="col">' + name + '</th><th scope="col">' + measurement + '</th><th scope="col">' + price + '</th><th scope="col">Действия</th></tr></thead><tbody class="' + blockID + '-t"></tbody></table>');
+                        for(let i = 0; i < data.length; i++){
+                            $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ', ' + data[i].element_price + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td>  <td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" id="' + data[i].id + '-price" data="price">' + data[i].element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data[i].id + ', ' + s + data[i].element_name + s + ', ' + data[i].element_quantity + ', ' + s + data[i].element_unit_measurement + s + ', ' + data[i].element_price + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data[i].id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                            if(data[i].category_id == 'c-5-d'){
+                                $('#' + data[i].id + '-ch').attr('checked', true);
+                                appendElementTotalTable(data[i], data[i].id, blockID, data[i].element_price);
+                            }
+                        }
+                    }else{
+                        let s = "'"; 
+                        $('.' + blockID).append('<table class="table table-sm"><thead><tr><th scope="col">#</th><th scope="col">' + name + '</th><th scope="col">' + quantity + '</th><th scope="col">' + measurement + '</th><th scope="col">' + price + '</th><th scope="col">Действия</th></tr></thead><tbody class="' + blockID + '-t"></tbody></table>');
+                        for(let i = 0; i < data.length; i++){
+                            $('.' + data[i].category_id + '-t').append('<tr id="' + data[i].id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data[i].id + s + ', ' + s + blockID + s + ', ' + data[i].element_price + ');" type="checkbox" id="' + data[i].id + '-ch"></th><td class="td-item">' + data[i].element_name + '</td><td class="td-item" id="' + data[i].id + '-qo">' + data[i].element_quantity + '</td><td class="td-item">' + data[i].element_unit_measurement + '</td><td  class="td-item" id="' + data[i].id + '-price" data="price">' + data[i].element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data[i].id + ', ' + s + data[i].element_name + s + ', ' + data[i].element_quantity + ', ' + s + data[i].element_unit_measurement + s + ', ' + data[i].element_price + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data[i].id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                            if(data[i].category_id == 'c-5-d'){
+                                $('#' + data[i].id + '-ch').attr('checked', true);
+                                appendElementTotalTable(data[i], data[i].id, blockID, data[i].element_price);
+                            }
                         }
                     }
                 }
@@ -481,7 +495,10 @@
             dataTarget = '.cost-transport-edit';
         }else if(blockID == 'c-9-d'){
             dataTarget = '.cost-other-edit';
+        }else if(blockID == 'c-11-d'){
+            dataTarget = '.cost-total-edit';
         }
+
         $.ajax({
             url: "{{ route('create_element') }}",
             type: 'POST',
@@ -497,7 +514,12 @@
             },
             success: (data) => {
                 let s = "'"; 
-                $('.' + blockID + '-t').append('<tr id="' + data.id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item" id="' + data.id + '-qo">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + data.id + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                if(blockID == 'c-11-d'){
+                    $('.' + blockID + '-t').append('<tr id="' + data.id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + data.id + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                }else{
+                    $('.' + blockID + '-t').append('<tr id="' + data.id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item" id="' + data.id + '-qo">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + data.id + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                }
+                
             }
         })
     }
@@ -509,17 +531,34 @@
         let catId = blockID.replace('c-', '');
         catId = catId.replace('-d', '');
         if(totalElement.length == 0 && checkedStatus == true){
-            $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
-            for(let i = 0; i < (el.length - 1); i++){
-                if(i != 1){
-                    $('#' + elementID + '-tr-2').append(el[i]);
-                }else if(i == 1){
-                    $('#' + elementID + '-tr-2').append('<td class="td-item"><input id="' + elementID + '-qu" onchange="changeQuantity(event, this, ' + elementID + ', ' + catId + ');" value="' + el[i].innerText + '" type="number" class="var-input cat-' + blockID + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+            if(blockID == 'c-11-d'){
+                $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
+                for(let i = 0; i < (el.length - 1); i++){
+                    if(i != 1){
+                        $('#' + elementID + '-tr-2').append(el[i]);
+                        $('#' + elementID + '-tr-2').append('<td class="td-item"></td>');
+                    }else if(i == 1){
+                        $('#' + elementID + '-tr-2').append('<td class="td-item">' + el[i].innerText + '</td>');
+                        $('#' + elementID + '-tr-2').append('<td class="td-item"></td>');
+                    }
                 }
+                
+                //$('#' + elementID + '-tr-2').append('<td><input id="' + elementID + '-var" onchange="changeVar(event, this, ' + elementID + ', ' + catId + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + elementID + '-tpr">' + elementPrice + '</td>');
+            }else{
+                $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
+                for(let i = 0; i < (el.length - 1); i++){
+                    if(i != 1){
+                        $('#' + elementID + '-tr-2').append(el[i]);
+                    }else if(i == 1){
+                        $('#' + elementID + '-tr-2').append('<td class="td-item"><input id="' + elementID + '-qu" onchange="changeQuantity(event, this, ' + elementID + ', ' + catId + ');" value="' + el[i].innerText + '" type="number" class="var-input cat-' + blockID + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                    }
+                }
+                $('#' + elementID + '-tr-2').append('<td><select id="' + elementID + '-s" onchange="changeSelect(event, this, ' + elementID + ', ' + catId + ');" class="form-select form-select-sm cat-s-' + catId + '" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
+                $('#' + elementID + '-tr-2').append('<td><input id="' + elementID + '-var" onchange="changeVar(event, this, ' + elementID + ', ' + catId + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + elementID + '-tpr">' + elementPrice + '</td>');
             }
-            $('#' + elementID + '-tr-2').append('<td><select id="' + elementID + '-s" onchange="changeSelect(event, this, ' + elementID + ', ' + catId + ');" class="form-select form-select-sm cat-s-' + catId + '" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
-            $('#' + elementID + '-tr-2').append('<td><input id="' + elementID + '-var" onchange="changeVar(event, this, ' + elementID + ', ' + catId + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
-            $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + elementID + '-tpr">' + elementPrice + '</td>');
+
         }else if(totalElement.length > 0 && checkedStatus == false){
             $('#' + elementID + '-tr-2').remove();
         }
@@ -582,6 +621,8 @@
             dataTarget = '.cost-transport-edit';
         }else if(blockID == 'c-9-d'){
             dataTarget = '.cost-other-edit';
+        }else if(blockID == 'c-11-d'){
+            dataTarget = '.cost-total-edit';
         }
 
         let catId = blockID.replace('c-', '');
@@ -604,26 +645,49 @@
                 let s = "'";
                 let checkedStatus = $('#' + data.element_id + '-ch').prop('checked');
                 
-                $('#' + data.element_id + '-tr').replaceWith('<tr id="' + data.element_id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.element_id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.element_id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item" id="' + elementID + '-qo">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + elementID + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.element_id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.element_id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                if(blockID == 'c-11-d'){
+                    $('#' + data.element_id + '-tr').replaceWith('<tr id="' + data.element_id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.element_id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.element_id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + elementID + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.element_id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.element_id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                }else{
+                    $('#' + data.element_id + '-tr').replaceWith('<tr id="' + data.element_id + '-tr"><th scope="row"><input onclick="appendElementTotalTable(this, ' + s + data.element_id + s + ', ' + s + blockID + s + ', ' + elementPrice + ');" type="checkbox" id="' + data.element_id + '-ch"></th><td class="td-item">' + data.element_name + '</td><td class="td-item" id="' + elementID + '-qo">' + data.element_quantity + '</td><td class="td-item">' + data.element_unit_measurement + '</td><td  class="td-item" id="' + elementID + '-price" data="price">' + data.element_price + '</td><td class="td-item"><i title="Редактировать элемент" data-target="' + dataTarget + '" onclick="showEditElement(event, this,  ' + data.element_id + ', ' + s + elementName + s + ', ' + elementQuantity + ', ' + s + elementUnitMeasurement + s + ', ' + elementPrice + ', ' + s + blockID + s + ')" class="fa fa-pencil-square-o edit-element" aria-hidden="true" data-toggle="modal" data-target=".bd-edit-modal-lg"></i><i title="Удалить элемент" onclick="removeElement(event, this, ' + data.element_id + ')" class="fa fa-times remove-element" aria-hidden="true"></i></td></tr>');
+                }
+                
                 let el = $('#' + elementID + '-tr').find('td').clone();
                 let totalElement = $('#' + elementID + '-tr-2');
                 if(checkedStatus == true){
                     $('#' + data.element_id + '-tr-2').remove();
 
-                    $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + data.element_id + '-tr-2"></tr>');
-
-                    for(let i = 0; i < (el.length - 1); i++){
-                        if(i != 1){
-                            $('#' + data.element_id + '-tr-2').append(el[i]);
-                        }else if(i == 1){
-                            $('#' + data.element_id + '-tr-2').append('<td class="td-item"><input id="' + data.element_id + '-qu" onchange="changeQuantity(event, this, ' + data.element_id + ', ' + catId + ');" value="' + el[i].innerText + '" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                    if(blockID == 'c-11-d'){
+                        $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + data.element_id + '-tr-2"></tr>');
+                        for(let i = 0; i < (el.length - 1); i++){
+                            if(i != 1){
+                                $('#' + elementID + '-tr-2').append(el[i]);
+                                $('#' + elementID + '-tr-2').append('<td class="td-item"></td>');
+                            }else if(i == 1){
+                                $('#' + elementID + '-tr-2').append('<td class="td-item">' + el[i].innerText + '</td>');
+                                $('#' + elementID + '-tr-2').append('<td class="td-item"></td>');
+                            }
                         }
+                        //$('#' + elementID + '-tr-2').append('<td><select id="' + data.element_id + '-s" onchange="changeSelect(event, this, ' + data.element_id + ');" class="form-select form-select-sm cat-s-' + catId + '" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
+                        //$('#' + elementID + '-tr-2').append('<td><input id="' + data.element_id + '-var" onchange="changeVar(event, this, ' + data.element_id + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                        $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + data.element_id + '-tpr">' + elementPrice + '</td>');
+                        $('#' + data.element_id + '-ch').prop('checked', true);
+                    }else{
+                        $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + data.element_id + '-tr-2"></tr>');
+                        for(let i = 0; i < (el.length - 1); i++){
+                            if(i != 1){
+                                $('#' + data.element_id + '-tr-2').append(el[i]);
+                            }else if(i == 1){
+                                $('#' + data.element_id + '-tr-2').append('<td class="td-item"><input id="' + data.element_id + '-qu" onchange="changeQuantity(event, this, ' + data.element_id + ', ' + catId + ');" value="' + el[i].innerText + '" type="number" class="var-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                            }
+                        }
+                        $('#' + elementID + '-tr-2').append('<td><select id="' + data.element_id + '-s" onchange="changeSelect(event, this, ' + data.element_id + ');" class="form-select form-select-sm cat-s-' + catId + '" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
+                        $('#' + elementID + '-tr-2').append('<td><input id="' + data.element_id + '-var" onchange="changeVar(event, this, ' + data.element_id + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
+                        $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + data.element_id + '-tpr">' + elementPrice + '</td>');
+                        $('#' + data.element_id + '-ch').prop('checked', true);
                     }
 
-                    $('#' + elementID + '-tr-2').append('<td><select id="' + data.element_id + '-s" onchange="changeSelect(event, this, ' + data.element_id + ');" class="form-select form-select-sm cat-s-' + catId + '" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
-                    $('#' + elementID + '-tr-2').append('<td><input id="' + data.element_id + '-var" onchange="changeVar(event, this, ' + data.element_id + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
-                    $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + data.element_id + '-tpr">' + elementPrice + '</td>');
-                    $('#' + data.element_id + '-ch').prop('checked', true);
+
+
                     editTotal();
                 }
                 
@@ -682,6 +746,8 @@
             $('#' + variable).next('p').remove();
             $('#' + variable).after('<p>' + varVal + '</p>');
             $('#' + variable).css('display', 'none');
+            $('.head-item-table').children('input').remove();
+            $('.head-item-table').children('label').remove();
         }
         
 

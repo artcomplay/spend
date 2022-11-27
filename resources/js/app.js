@@ -30,6 +30,7 @@ Vue.component('deduction-component', require('./components/menu/DeductionCompone
 Vue.component('sales-component', require('./components/menu/SalesComponent.vue').default);
 Vue.component('transport-component', require('./components/menu/TransportComponent.vue').default);
 Vue.component('other-component', require('./components/menu/OtherComponent.vue').default);
+Vue.component('total-component', require('./components/menu/TotalComponent.vue').default);
 
 
 

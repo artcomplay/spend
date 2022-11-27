@@ -88,6 +88,14 @@
 
                             <other-component></other-component>
 
+                            <li class="list-item"><a href="" id="c-11" onclick="showItems(event, this, 'c-11-d');">Операции с итоговой стоимостью</a></li>
+                            <div class="hide list-input-block" id="c-11-d">
+                                <a href="" data-target=".cost-total" class="create-element" data-toggle="modal">+ Добавить операцию</a>
+                                <div class="c-11-d" class="print-item"></div>
+                            </div>
+
+                            <total-component></total-component>
+
                             <li class="list-item"><a href="" id="c-10" onclick="showItems(event, this, 'c-10-d');">Полная себестоимость</a></li>
                             <div class="hide" id="c-10-d">
                                 <table class="table table-sm" id="printTable">
@@ -122,7 +130,9 @@
                                         <tr id="c-8-d-t-m"></tr>
                                         <tr id="9-t-t"><td scope="col" colspan="1" class="head-item-table">Прочие затраты</td><td scope="col" colspan="1" class="head-item-table"><input type="checkbox" onchange="autoChangeQuangity(9);" /><label class="check-a-p" title="Автоподстановка" for=""> А/п</label></td> <td scope="col" colspan="1" class="head-item-table"></td><td scope="col" colspan="1" class="head-item-table"></td> <td scope="col" colspan="1" class="head-item-table"><input type="checkbox" onchange="autoChangeSelect(9);" /><label class="check-a-p" title="Автоподстановка" for=""> А/п</label></td> <td scope="col" colspan="1" class="head-item-table"><input type="checkbox" onchange=autoChangeVariable(9); /><label class="check-a-p" title="Автоподстановка" for=""> А/п</label></td> <td scope="col" colspan="1" class="head-item-table"></td></tr>
                                         <tr id="c-9-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="6" class="total-item-cost">Полная себестоимость</td><td class="total-item-cost" colspan="1" id="total-price"></td></tr>
+                                        <tr id="11-t-t"><td scope="col" colspan="7" class="head-item-table">Операции с итоговой стоимостью</td></td></tr>
+                                        <tr id="c-11-d-t-m"></tr>
+                                        <tr><td scope="col" colspan="1" class="total-item-cost">Полная себестоимость</td><td scope="col" colspan="5" class="total-item-cost"></td><td class="total-item-cost" colspan="1" id="total-price"></td></tr>
                                     </tbody>
                                 </table>
 

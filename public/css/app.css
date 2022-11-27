@@ -11561,6 +11561,10 @@ input[type=checkbox] {
   cursor: pointer;
 }
 
+.hide-element {
+  display: none;
+}
+
 .back-title {
   font-weight: bold;
   color: #00304a;
