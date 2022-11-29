@@ -11557,6 +11557,12 @@ a.leave-request:hover {
   cursor: pointer;
 }
 
+.operation-style {
+  color: #886cc0de;
+  font-family: "OSWALD";
+  background-color: #ddaefa38;
+}
+
 input[type=checkbox] {
   cursor: pointer;
 }

@@ -132,7 +132,6 @@
         let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
 
         let varOperation = $('.cat-v-' + categoryID);
-        //console.log(varOperation[0].value);
         if(inChe[2].checked == true){
             $('.cat-v-' + categoryID).val(varOperation[0].value);
             let categoryOperation = $('.cat-s-' + categoryID);
@@ -266,7 +265,6 @@
             }
 
 
-            //changeTotal
             let varOperation = $('.cat-v-' + categoryID);
             $('.cat-v-' + categoryID).val(varOperation[0].value);
             let categoryOperation = $('.cat-s-' + categoryID);
@@ -385,9 +383,6 @@
         
     }
 
-
-
-
     function showItems(e, element, blockID){
         e.preventDefault();
         let table = $('.' + blockID + '-t');
@@ -464,10 +459,7 @@
             $('#' + element.id + '-d').show();
         }else if(display == 'block'){
             $('#' + element.id + '-d').hide();
-        }
-
-
-        
+        }   
     }
 
     function addItem(e, element, blockID){
@@ -528,23 +520,26 @@
         let checkedStatus = $('#' + elementID + '-ch').prop('checked');
         let el = $('#' + elementID + '-tr').find('td').clone();
         let totalElement = $('#' + elementID + '-tr-2');
+        let totalElement3 = $('#' + elementID + '-tr-3');
         let catId = blockID.replace('c-', '');
         catId = catId.replace('-d', '');
         if(totalElement.length == 0 && checkedStatus == true){
             if(blockID == 'c-11-d'){
-                $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
+                $('#c-12-d-t-m').before('<tr id="' + elementID + '-tr-3"></tr>');
                 for(let i = 0; i < (el.length - 1); i++){
-                    if(i != 1){
-                        $('#' + elementID + '-tr-2').append(el[i]);
-                        $('#' + elementID + '-tr-2').append('<td class="td-item"></td>');
+                    if(i != 1 && i != 0){
+                        $('#' + elementID + '-tr-3').append(el[i]);
                     }else if(i == 1){
-                        $('#' + elementID + '-tr-2').append('<td class="td-item">' + el[i].innerText + '</td>');
-                        $('#' + elementID + '-tr-2').append('<td class="td-item"></td>');
+                        $('#' + elementID + '-tr-3').append('<td colspan="1" id="op-n-' + elementID + '" class="td-item">' + el[i].innerText + '</td>').attr('colspan', 1);
+                    }else if(i == 0){
+                        el[i].setAttribute('colspan', '2');
+                        $('#' + elementID + '-tr-3').append(el[i]);
+                        $('#' + elementID + '-tr-3').append('<td class="td-item" id="ch-t-op-' + elementID + '" colspan=2"></td>');
                     }
                 }
-                
-                //$('#' + elementID + '-tr-2').append('<td><input id="' + elementID + '-var" onchange="changeVar(event, this, ' + elementID + ', ' + catId + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
-                $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + elementID + '-tpr">' + elementPrice + '</td>');
+                $('#' + elementID + '-tr-3').append('<td class="td-item total-price" id="' + elementID + '-tpr">' + elementPrice + '</td>');
+                operationTotalEdit();
+
             }else{
                 $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + elementID + '-tr-2"></tr>');
                 for(let i = 0; i < (el.length - 1); i++){
@@ -561,6 +556,8 @@
 
         }else if(totalElement.length > 0 && checkedStatus == false){
             $('#' + elementID + '-tr-2').remove();
+        }else if(totalElement3.length > 0 && checkedStatus == false){
+            $('#' + elementID + '-tr-3').remove();
         }
         editTotal();
     }
@@ -580,6 +577,7 @@
             success: (data) => {
                 $('#' + elementID + '-tr').remove();
                 $('#' + elementID + '-tr-2').remove();
+                $('#' + elementID + '-tr-3').remove();
             }
         })
         editTotal();
@@ -657,19 +655,15 @@
                     $('#' + data.element_id + '-tr-2').remove();
 
                     if(blockID == 'c-11-d'){
-                        $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + data.element_id + '-tr-2"></tr>');
+                        $('#' + blockID + '-t-m').after('<tr id="' + data.element_id + '-tr-3"></tr>');
                         for(let i = 0; i < (el.length - 1); i++){
                             if(i != 1){
-                                $('#' + elementID + '-tr-2').append(el[i]);
-                                $('#' + elementID + '-tr-2').append('<td class="td-item"></td>');
+                                $('#' + elementID + '-tr-3').append(el[i]);
                             }else if(i == 1){
-                                $('#' + elementID + '-tr-2').append('<td class="td-item">' + el[i].innerText + '</td>');
-                                $('#' + elementID + '-tr-2').append('<td class="td-item"></td>');
+                                $('#' + elementID + '-tr-3').append('<td class="td-item">' + el[i].innerText + '</td>');
                             }
                         }
-                        //$('#' + elementID + '-tr-2').append('<td><select id="' + data.element_id + '-s" onchange="changeSelect(event, this, ' + data.element_id + ');" class="form-select form-select-sm cat-s-' + catId + '" aria-label=".form-select-sm example"><option selected>=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option></select></td>');
-                        //$('#' + elementID + '-tr-2').append('<td><input id="' + data.element_id + '-var" onchange="changeVar(event, this, ' + data.element_id + ');" type="number" class="var-input cat-v-' + catId + '" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>');
-                        $('#' + elementID + '-tr-2').append('<td class="td-item total-price" id="' + data.element_id + '-tpr">' + elementPrice + '</td>');
+                        $('#' + elementID + '-tr-3').append('<td class="td-item total-price" id="' + data.element_id + '-tpr">' + elementPrice + '</td>');
                         $('#' + data.element_id + '-ch').prop('checked', true);
                     }else{
                         $('#' + blockID + '-t-m').after('<tr colspan="5" id="' + data.element_id + '-tr-2"></tr>');
@@ -686,8 +680,6 @@
                         $('#' + data.element_id + '-ch').prop('checked', true);
                     }
 
-
-
                     editTotal();
                 }
                 
@@ -695,13 +687,56 @@
         })
     }
 
+    function operationTotalEdit(){
+        let newOpPrice;
+        let tp = editTotal();
+        let elOp = $("[id$='-tr-3']");
+        let lastVar;
+        for(let j = 0; j < elOp.length; j++){
+            let idSh = elOp[j].id.replace('-tr-3', '');
+            if(j == 0){
+                $('#ch-t-op-' + idSh).html(tp);
+            }else{
+                tp = newOpPrice;
+            }
+            let operation = $('#op-n-' + idSh).html();
+            let prC = $('#' + idSh + '-price').html();
+            if(operation == '*'){
+                newOpPrice = parseFloat(tp) * parseFloat(prC);
+            }else if(operation == '/'){
+                newOpPrice = parseFloat(tp) / parseFloat(prC);
+            }else if(operation == '+'){
+                newOpPrice = parseFloat(tp) + parseFloat(prC);
+            }else if(operation == '-'){
+                newOpPrice = parseFloat(tp) - parseFloat(prC);
+            }else if(operation == '%'){
+                newOpPrice = (parseFloat(tp) / 100) * parseFloat(prC);
+            }
+            $('#' + idSh + '-tpr').html(newOpPrice.toFixed(2));
+            if(elOp[j + 1] != undefined){
+                let idShn = elOp[j + 1].id.replace('-tr-3', '');
+                $('#ch-t-op-' + idShn).html(newOpPrice.toFixed(2));
+            }else if(elOp[j + 1] == undefined){
+                lastVar = newOpPrice.toFixed(2);
+            }
+        }
+        $('#total-price').html(parseFloat(lastVar).toFixed(2));
+    }
+
     function editTotal(){
         let totals = $('.total-price');
         let totalPrice = 0;
         for(let i = 0; i < totals.length; i++){
-            totalPrice += parseFloat(totals[i].innerText);
+            let operationsNo = totals[i].parentNode.id;
+            if(operationsNo.includes('tr-3') == false){
+                totalPrice += parseFloat(totals[i].innerText);
+            }
         }
-        $('#total-price').html(totalPrice.toFixed(2));
+
+        
+
+        return totalPrice;
+  
     }
 
     function printData(e){
@@ -749,8 +784,6 @@
             $('.head-item-table').children('input').remove();
             $('.head-item-table').children('label').remove();
         }
-        
-
     }
 
 

@@ -131,8 +131,8 @@
                                         <tr id="9-t-t"><td scope="col" colspan="1" class="head-item-table">Прочие затраты</td><td scope="col" colspan="1" class="head-item-table"><input type="checkbox" onchange="autoChangeQuangity(9);" /><label class="check-a-p" title="Автоподстановка" for=""> А/п</label></td> <td scope="col" colspan="1" class="head-item-table"></td><td scope="col" colspan="1" class="head-item-table"></td> <td scope="col" colspan="1" class="head-item-table"><input type="checkbox" onchange="autoChangeSelect(9);" /><label class="check-a-p" title="Автоподстановка" for=""> А/п</label></td> <td scope="col" colspan="1" class="head-item-table"><input type="checkbox" onchange=autoChangeVariable(9); /><label class="check-a-p" title="Автоподстановка" for=""> А/п</label></td> <td scope="col" colspan="1" class="head-item-table"></td></tr>
                                         <tr id="c-9-d-t-m"></tr>
                                         <tr id="11-t-t"><td scope="col" colspan="7" class="head-item-table">Операции с итоговой стоимостью</td></td></tr>
-                                        <tr id="c-11-d-t-m"></tr>
-                                        <tr><td scope="col" colspan="1" class="total-item-cost">Полная себестоимость</td><td scope="col" colspan="5" class="total-item-cost"></td><td class="total-item-cost" colspan="1" id="total-price"></td></tr>
+                                        <tr id="c-11-d-t-m"><td colspan="2" class="operation-style">Название операции</td><td colspan="2" class="operation-style">Предыдущее итоговое значение</td><td colspan="1" class="operation-style">Символ операции</td><td colspan="1" class="operation-style">Переменная</td><td colspan="1" class="operation-style">Итог</td></tr>
+                                        <tr id="c-12-d-t-m"><td scope="col" colspan="1" class="total-item-cost">Полная себестоимость</td><td scope="col" colspan="5" class="total-item-cost"></td><td class="total-item-cost" colspan="1" id="total-price"></td></tr>
                                     </tbody>
                                 </table>
 
