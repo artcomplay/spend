@@ -612,7 +612,45 @@ a.leave-request:hover{
 .operation-style{
     color: #886cc0de;
     font-family: "OSWALD";
-    background-color: #ddaefa38;
+    background-color: #ddaefa24;
+}
+
+.warn-text{
+    position: fixed;
+    left: auto;
+    right: auto;
+    margin-top: 20%;
+    margin-left: 35%;
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px solid #8080803b;
+    box-shadow: 1px 1px 12px grey;
+}
+
+.warn-mess{
+    display: none;
+    color: #ae3d3d;
+    background-color: #ffffb65e;
+    position: fixed;
+    border: 1px solid #80808026;
+    font-family: Oswald;
+    letter-spacing: 0.3px;
+    padding: auto;
+    top: 10;
+    right: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.total-first-cost{
+    color: #a228579c;
+    font-family: "OSWALD";
+    background-color: #ff78ad17;
 }
 
 input[type='checkbox']{

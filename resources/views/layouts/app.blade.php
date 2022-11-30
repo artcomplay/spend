@@ -87,6 +87,10 @@
 
 <script>
 
+    function closeWarn(){
+        $('.warn-mess').css('display', 'none');
+    }
+
     function autoChangeVariable(categoryID){
         let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
 
@@ -97,7 +101,9 @@
         if(inChe[2].checked == true){
             $('.cat-v-' + categoryID).val(varOperation[0].value);
             for(let j = 0; j < varOperation.length; j++){
-                changeVar(event, varOperation[j], varOperation[j].id, categoryID);
+                if(varOperation[j].value != '' || varOperation[j].value != null){
+                    changeVar(event, varOperation[j], varOperation[j].id, categoryID);    
+                } 
             }
         }else if(inChe[2].checked == false){
             for(let j = 0; j < varOperation.length; j++){
@@ -125,14 +131,14 @@
             }
         }
 
-        editTotal();
+        operationTotalEdit();
     }
 
     function changeVar(e, element, elementID, categoryID){
         let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
-
+        
         let varOperation = $('.cat-v-' + categoryID);
-        if(inChe[2].checked == true){
+        if(inChe[2].checked == true && element.value != '' && element.value != null){
             $('.cat-v-' + categoryID).val(varOperation[0].value);
             let categoryOperation = $('.cat-s-' + categoryID);
             for(let p = 0; p < categoryOperation.length; p++){
@@ -140,8 +146,6 @@
                 let operation = $('#' + categoryOperation[p].id).val();
                 let price = $('#' + categoryOperation[p].id.replace('-s', '') + '-tr-2').children('#' + categoryOperation[p].id.replace('-s', '') + '-price').html();
                 let totalPrice;
-
-                console.log();
                 if(operation == '=' || operation == 0){         
                     totalPrice = price;
                     $('#' + categoryOperation[p].id.replace('-s', '') + '-var').val(null);
@@ -159,7 +163,7 @@
 
                 $('#' + categoryOperation[p].id.replace('-s', '') + '-tpr').html(parseFloat(totalPrice).toFixed(2));
             }
-        }else if(inChe[2].checked == false){
+        }else if(inChe[2].checked == false && element.value != '' && element.value != null){
             let variableInput = element.value;
             let operation = $('#' + elementID + '-s').val();
             let price = $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html();
@@ -183,18 +187,13 @@
             $('#' + elementID + '-tpr').html(parseFloat(totalPrice).toFixed(2));
         }
 
-        editTotal();
+        operationTotalEdit();
 
     }
 
     function autoChangeSelect(categoryID){
-        //Все элементы select в категории
         let inCh = $('.cat-s-' + categoryID);
-
-        //Цифровое значение в select
         let valIn = inCh[0].value;
-
-        //Чекбоксы категорий
         let inChe = $('#' + categoryID + '-t-t').children('td').children('input');
 
         if(inChe[1].checked == true){
@@ -227,7 +226,9 @@
             }
         }
 
-        editTotal();
+        inChe[2].checked = false;
+
+        operationTotalEdit();
 
     }
 
@@ -305,50 +306,40 @@
         }
         $('#' + elementID + '-var').val(valSelect);
 
-        editTotal();
+        operationTotalEdit();
     }
 
     function autoChangeQuangity(categoryID){
         let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
-
         if(inCh[0].checked == true){
             let chQuTr = $('.cat-c-' + categoryID + '-d');
             let changeValue;
             for(let i = 0; i < chQuTr.length; i++){
                 changeValue = chQuTr[0].value;
-
                 chQuTr[i].value = changeValue;
-
             }
             for(let j = 0; j < chQuTr.length; j++){
                 let elementID = chQuTr[j].id.replace('-qu','');
                 changeQuantityAuto(event, chQuTr[j], elementID, categoryID);
-
             }
         }
-        editTotal();
+        operationTotalEdit();
     }
 
     function changeQuantityAuto(event, element, elementID, categoryID){
-
         let oldPrice = $('#' + elementID + '-tr').children('#' + elementID + '-price').html();
         let oldQuantity = $('#' + elementID + '-tr').children('#' + elementID + '-qo').html();
         let nowQuantity = parseFloat(element.value);
         let newPrice = ((parseFloat(oldPrice) / parseFloat(oldQuantity)) * nowQuantity);
-
         $('#' + elementID + '-tr-2').children('#' + elementID + '-price').html(newPrice.toFixed(2));
         $('#' + elementID + '-tpr').html(newPrice.toFixed(2));
-        $('#' + elementID + '-s').val('=');
-        $('#' + elementID + '-var').val(null);
 
-        editTotal();
-
+        operationTotalEdit();
     }
 
+
     function changeQuantity(event, element, elementID, categoryID){
-
         let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
-
         if(inCh[0].checked == false){
             let oldPrice = $('#' + elementID + '-tr').children('#' + elementID + '-price').html();
             let oldQuantity = $('#' + elementID + '-tr').children('#' + elementID + '-qo').html();
@@ -359,28 +350,32 @@
             $('#' + elementID + '-tpr').html(newPrice.toFixed(2));
             $('#' + elementID + '-s').val('=');
             $('#' + elementID + '-var').val(null);
+
+            $('.cat-s-' + categoryID).html('<option selected="">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option>');
+            $('.cat-v-' + categoryID).val(null);
+            inCh[1].checked = false;
+            inCh[2].checked = false;
         }else if(inCh[0].checked == true){
             let inCh = $('#' + categoryID + '-t-t').children('td').children('input');
-
             if(inCh[0].checked == true){
                 let chQuTr = $('.cat-c-' + categoryID + '-d');
                 let changeValue;
                 for(let i = 0; i < chQuTr.length; i++){
                     changeValue = chQuTr[0].value;
-
                     chQuTr[i].value = changeValue;
-
                 }
                 for(let j = 0; j < chQuTr.length; j++){
                     let elementID = chQuTr[j].id.replace('-qu','');
                     changeQuantityAuto(event, chQuTr[j], elementID, categoryID);
-
                 }
             }
+            $('.cat-s-' + categoryID).html('<option selected="">=</option><option value="1">X</option><option value="2">/</option><option value="3">%</option><option value="4">+</option><option value="5">-</option>');
+            $('.cat-v-' + categoryID).val(null);
+            inCh[1].checked = false;
+            inCh[2].checked = false;
         }
 
-        editTotal();
-        
+        operationTotalEdit();   
     }
 
     function showItems(e, element, blockID){
@@ -559,7 +554,7 @@
         }else if(totalElement3.length > 0 && checkedStatus == false){
             $('#' + elementID + '-tr-3').remove();
         }
-        editTotal();
+        operationTotalEdit();
     }
 
 
@@ -580,7 +575,7 @@
                 $('#' + elementID + '-tr-3').remove();
             }
         })
-        editTotal();
+        operationTotalEdit();
     }
 
     function showEditElement(e, element, elementID, elementName, elementQuantity, elementMeasurment, elementPrice, blockID){
@@ -680,9 +675,8 @@
                         $('#' + data.element_id + '-ch').prop('checked', true);
                     }
 
-                    editTotal();
-                }
-                
+                    operationTotalEdit();
+                } 
             }
         })
     }
@@ -695,7 +689,7 @@
         for(let j = 0; j < elOp.length; j++){
             let idSh = elOp[j].id.replace('-tr-3', '');
             if(j == 0){
-                $('#ch-t-op-' + idSh).html(tp);
+                $('#ch-t-op-' + idSh).html(tp.toFixed(2));
             }else{
                 tp = newOpPrice;
             }
@@ -720,7 +714,12 @@
                 lastVar = newOpPrice.toFixed(2);
             }
         }
-        $('#total-price').html(parseFloat(lastVar).toFixed(2));
+        if(lastVar == undefined){
+            $('#total-price').html(parseFloat(tp).toFixed(2));
+        }else if(lastVar != undefined){
+            $('#total-price').html(parseFloat(lastVar).toFixed(2));
+        }
+        
     }
 
     function editTotal(){
@@ -732,11 +731,8 @@
                 totalPrice += parseFloat(totals[i].innerText);
             }
         }
-
-        
-
+        $('#total-before-price').html(parseFloat(totalPrice).toFixed(2));
         return totalPrice;
-  
     }
 
     function printData(e){
